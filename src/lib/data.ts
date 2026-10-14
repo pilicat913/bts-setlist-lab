@@ -15,6 +15,8 @@ export interface Song {
   aliases: string[];
   album: string | null;
   year: number | null;
+  /** 首次正式发行日期（用于“按专辑发行顺序”排序） */
+  released: string | null;
   /** setlist = 本巡演固定曲目; catalog = 曲库（随机曲目来源） */
   kind: 'setlist' | 'catalog';
 }
@@ -193,6 +195,10 @@ export const ranking: RankRow[] = [...appearances.entries()]
     last: list[list.length - 1].show,
   }))
   .sort((a, b) => b.count - a.count || (a.first.date < b.first.date ? -1 : 1));
+
+/** 曲库中尚未作为随机曲目出现的团体曲 / 小分队曲（固定曲目除外） */
+export const unplayed: Song[] = songs.filter((s) => s.kind === 'catalog' && !appearances.has(s.songId));
+export const catalogSize = songs.filter((s) => s.kind === 'catalog').length;
 
 export const stats = (() => {
   const plays = verifiedShows.reduce((n, s) => n + s.surpriseSongs.length, 0);

@@ -6,7 +6,8 @@
     "aliases": [],
     "album": "ARIRANG",
     "year": 2026,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2026-03-20"
   },
   {
     "songId": "aliens",
@@ -15,7 +16,8 @@
     "aliases": [],
     "album": "ARIRANG",
     "year": 2026,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2026-03-20"
   },
   {
     "songId": "run-bts",
@@ -27,7 +29,8 @@
     ],
     "album": "Proof",
     "year": 2022,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2022-06-10"
   },
   {
     "songId": "they-dont-know-bout-us",
@@ -38,7 +41,8 @@
     ],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "like-animals",
@@ -47,7 +51,8 @@
     "aliases": [],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "fake-love",
@@ -58,7 +63,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2018-05-18"
   },
   {
     "songId": "swim",
@@ -69,7 +75,8 @@
     ],
     "album": "ARIRANG",
     "year": 2026,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2026-03-20"
   },
   {
     "songId": "merry-go-round",
@@ -80,7 +87,8 @@
     ],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "two-point-zero",
@@ -91,7 +99,8 @@
     ],
     "album": "ARIRANG",
     "year": 2026,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2026-03-20"
   },
   {
     "songId": "normal",
@@ -100,7 +109,8 @@
     "aliases": [],
     "album": "ARIRANG",
     "year": 2026,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2026-03-20"
   },
   {
     "songId": "not-today",
@@ -109,7 +119,8 @@
     "aliases": [],
     "album": "YOU NEVER WALK ALONE",
     "year": 2017,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2017-02-13"
   },
   {
     "songId": "mic-drop",
@@ -120,7 +131,8 @@
     ],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2017-09-18"
   },
   {
     "songId": "fya",
@@ -129,7 +141,8 @@
     "aliases": [],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "fire",
@@ -141,7 +154,8 @@
     ],
     "album": "The Most Beautiful Moment in Life: Young Forever",
     "year": 2016,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2016-05-02"
   },
   {
     "songId": "body-to-body",
@@ -150,7 +164,8 @@
     "aliases": [],
     "album": "ARIRANG",
     "year": 2026,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2026-03-20"
   },
   {
     "songId": "idol",
@@ -161,7 +176,8 @@
     ],
     "album": "LOVE YOURSELF 結 'Answer'",
     "year": 2018,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2018-08-24"
   },
   {
     "songId": "come-over",
@@ -170,7 +186,8 @@
     "aliases": [],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "butter",
@@ -181,7 +198,8 @@
     ],
     "album": "Butter (Single)",
     "year": 2021,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2021-05-21"
   },
   {
     "songId": "dynamite",
@@ -190,9 +208,10 @@
     "aliases": [
       "炸药"
     ],
-    "album": "BE",
+    "album": "Dynamite（单曲）",
     "year": 2020,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": "2020-08-21"
   },
   {
     "songId": "please",
@@ -201,7 +220,8 @@
     "aliases": [],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "into-the-sun",
@@ -210,7 +230,8 @@
     "aliases": [],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "one-more-night",
@@ -219,7 +240,8 @@
     "aliases": [],
     "album": null,
     "year": null,
-    "kind": "setlist"
+    "kind": "setlist",
+    "released": null
   },
   {
     "songId": "mikrokosmos",
@@ -230,7 +252,8 @@
     ],
     "album": "MAP OF THE SOUL : PERSONA",
     "year": 2019,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2019-04-12"
   },
   {
     "songId": "i-need-u",
@@ -242,7 +265,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.1",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-04-29"
   },
   {
     "songId": "take-two",
@@ -251,7 +275,8 @@
     "aliases": [],
     "album": "Take Two (Single)",
     "year": 2023,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2023-06-09"
   },
   {
     "songId": "dna",
@@ -260,7 +285,8 @@
     "aliases": [],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2017-09-18"
   },
   {
     "songId": "spring-day",
@@ -272,7 +298,8 @@
     ],
     "album": "YOU NEVER WALK ALONE",
     "year": 2017,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2017-02-13"
   },
   {
     "songId": "run",
@@ -283,7 +310,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "save-me",
@@ -294,7 +322,8 @@
     ],
     "album": "The Most Beautiful Moment in Life: Young Forever",
     "year": 2016,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2016-05-02"
   },
   {
     "songId": "crystal-snow",
@@ -303,9 +332,10 @@
     "aliases": [
       "水晶雪"
     ],
-    "album": "FACE YOURSELF",
-    "year": 2018,
-    "kind": "catalog"
+    "album": "MIC Drop/DNA/Crystal Snow（日语单曲）",
+    "year": 2017,
+    "kind": "catalog",
+    "released": "2017-12-06"
   },
   {
     "songId": "dope",
@@ -317,16 +347,18 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.1",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-04-29"
   },
   {
     "songId": "for-you",
     "title": "For You",
     "titleKo": null,
     "aliases": [],
-    "album": "Youth",
-    "year": 2016,
-    "kind": "catalog"
+    "album": "For You（日语单曲）",
+    "year": 2015,
+    "kind": "catalog",
+    "released": "2015-06-17"
   },
   {
     "songId": "permission-to-dance",
@@ -338,7 +370,8 @@
     ],
     "album": "Butter (Single)",
     "year": 2021,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2021-07-09"
   },
   {
     "songId": "magic-shop",
@@ -349,7 +382,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "boy-with-luv",
@@ -362,7 +396,8 @@
     ],
     "album": "MAP OF THE SOUL : PERSONA",
     "year": 2019,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2019-04-12"
   },
   {
     "songId": "pied-piper",
@@ -374,7 +409,8 @@
     ],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2017-09-18"
   },
   {
     "songId": "life-goes-on",
@@ -385,7 +421,8 @@
     ],
     "album": "BE",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-11-20"
   },
   {
     "songId": "silver-spoon",
@@ -398,7 +435,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "on",
@@ -407,7 +445,8 @@
     "aliases": [],
     "album": "MAP OF THE SOUL : 7",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-02-21"
   },
   {
     "songId": "outro-wings",
@@ -417,9 +456,10 @@
       "翅膀",
       "outro wings"
     ],
-    "album": "WINGS",
-    "year": 2016,
-    "kind": "catalog"
+    "album": "YOU NEVER WALK ALONE",
+    "year": 2017,
+    "kind": "catalog",
+    "released": "2017-02-13"
   },
   {
     "songId": "dionysus",
@@ -430,7 +470,8 @@
     ],
     "album": "MAP OF THE SOUL : PERSONA",
     "year": 2019,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2019-04-12"
   },
   {
     "songId": "best-of-me",
@@ -441,7 +482,8 @@
     ],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2017-09-18"
   },
   {
     "songId": "boy-in-luv",
@@ -453,7 +495,8 @@
     ],
     "album": "Skool Luv Affair",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-02-12"
   },
   {
     "songId": "so-what",
@@ -462,7 +505,8 @@
     "aliases": [],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "we-are-bulletproof-pt2",
@@ -475,7 +519,8 @@
     ],
     "album": "2 Cool 4 Skool",
     "year": 2013,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2013-06-12"
   },
   {
     "songId": "just-one-day",
@@ -487,7 +532,8 @@
     ],
     "album": "Skool Luv Affair",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-02-12"
   },
   {
     "songId": "airplane-pt2",
@@ -499,7 +545,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "no",
@@ -510,7 +557,8 @@
     ],
     "album": "O!RUL8,2?",
     "year": 2013,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2013-09-11"
   },
   {
     "songId": "anpanman",
@@ -521,7 +569,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "blood-sweat-tears",
@@ -533,7 +582,8 @@
     ],
     "album": "WINGS",
     "year": 2016,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2016-10-10"
   },
   {
     "songId": "no-more-dream",
@@ -544,7 +594,8 @@
     ],
     "album": "2 Cool 4 Skool",
     "year": 2013,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2013-06-12"
   },
   {
     "songId": "go-go",
@@ -556,7 +607,8 @@
     ],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2017-09-18"
   },
   {
     "songId": "black-swan",
@@ -567,7 +619,8 @@
     ],
     "album": "MAP OF THE SOUL : 7",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-02-21"
   },
   {
     "songId": "spine-breaker",
@@ -578,7 +631,8 @@
     ],
     "album": "Skool Luv Affair",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-02-12"
   },
   {
     "songId": "attack-on-bangtan",
@@ -589,7 +643,8 @@
     ],
     "album": "O!RUL8,2?",
     "year": 2013,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2013-09-11"
   },
   {
     "songId": "danger",
@@ -600,7 +655,8 @@
     ],
     "album": "DARK&WILD",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-08-20"
   },
   {
     "songId": "boyz-with-fun",
@@ -611,7 +667,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.1",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-04-29"
   },
   {
     "songId": "paldogangsan",
@@ -622,7 +679,8 @@
     ],
     "album": "O!RUL8,2?",
     "year": 2013,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2013-09-11"
   },
   {
     "songId": "ma-city",
@@ -631,7 +689,8 @@
     "aliases": [],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "dimple",
@@ -643,7 +702,8 @@
     ],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2017-09-18"
   },
   {
     "songId": "ddaeng",
@@ -652,7 +712,8 @@
     "aliases": [],
     "album": "BTS FESTA（非专辑曲）",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-06-11"
   },
   {
     "songId": "tomorrow",
@@ -663,7 +724,8 @@
     ],
     "album": "Skool Luv Affair",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-02-12"
   },
   {
     "songId": "for-youth",
@@ -674,7 +736,8 @@
     ],
     "album": "Proof",
     "year": 2022,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2022-06-10"
   },
   {
     "songId": "epilogue-young-forever",
@@ -686,7 +749,8 @@
     ],
     "album": "The Most Beautiful Moment in Life: Young Forever",
     "year": 2016,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2016-05-02"
   },
   {
     "songId": "louder-than-bombs",
@@ -695,7 +759,8 @@
     "aliases": [],
     "album": "MAP OF THE SOUL : 7",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-02-21"
   },
   {
     "songId": "jump",
@@ -704,7 +769,8 @@
     "aliases": [],
     "album": "Skool Luv Affair",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-02-12"
   },
   {
     "songId": "wab-the-eternal",
@@ -717,7 +783,8 @@
     ],
     "album": "MAP OF THE SOUL : 7",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-02-21"
   },
   {
     "songId": "dis-ease",
@@ -728,7 +795,8 @@
     ],
     "album": "BE",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-11-20"
   },
   {
     "songId": "autumn-leaves",
@@ -739,7 +807,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "paradise",
@@ -750,7 +819,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "make-it-right",
@@ -759,7 +829,8 @@
     "aliases": [],
     "album": "MAP OF THE SOUL : PERSONA",
     "year": 2019,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2019-04-12"
   },
   {
     "songId": "telepathy",
@@ -771,7 +842,8 @@
     ],
     "album": "BE",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-11-20"
   },
   {
     "songId": "butterfly",
@@ -782,7 +854,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "zero-oclock",
@@ -795,7 +868,8 @@
     ],
     "album": "MAP OF THE SOUL : 7",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-02-21"
   },
   {
     "songId": "outro-tear",
@@ -807,7 +881,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "hip-hop-phile",
@@ -818,7 +893,8 @@
     ],
     "album": "DARK&WILD",
     "year": 2014,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2014-08-20"
   },
   {
     "songId": "134340",
@@ -829,7 +905,8 @@
     ],
     "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "love-maze",
@@ -838,9 +915,10 @@
     "aliases": [
       "爱情迷宫"
     ],
-    "album": "LOVE YOURSELF 結 'Answer'",
+    "album": "LOVE YOURSELF 轉 'Tear'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-05-18"
   },
   {
     "songId": "home",
@@ -851,7 +929,8 @@
     ],
     "album": "MAP OF THE SOUL : PERSONA",
     "year": 2019,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2019-04-12"
   },
   {
     "songId": "whalien-52",
@@ -863,7 +942,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "im-fine",
@@ -875,7 +955,8 @@
     ],
     "album": "LOVE YOURSELF 結 'Answer'",
     "year": 2018,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2018-08-24"
   },
   {
     "songId": "house-of-cards",
@@ -888,7 +969,8 @@
     ],
     "album": "The Most Beautiful Moment in Life, Pt.2",
     "year": 2015,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2015-11-30"
   },
   {
     "songId": "ugh",
@@ -900,6 +982,667 @@
     ],
     "album": "MAP OF THE SOUL : 7",
     "year": 2020,
-    "kind": "catalog"
+    "kind": "catalog",
+    "released": "2020-02-21"
+  },
+  {
+    "songId": "like",
+    "title": "Like",
+    "titleKo": "좋아요",
+    "aliases": [
+      "喜欢"
+    ],
+    "album": "2 Cool 4 Skool",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-06-12"
+  },
+  {
+    "songId": "outro-circle-room-cypher",
+    "title": "Outro: Circle Room Cypher",
+    "titleKo": null,
+    "aliases": [
+      "circle room cypher"
+    ],
+    "album": "2 Cool 4 Skool",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-06-12"
+  },
+  {
+    "songId": "path",
+    "title": "Path",
+    "titleKo": "길",
+    "aliases": [
+      "路"
+    ],
+    "album": "2 Cool 4 Skool",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-06-12"
+  },
+  {
+    "songId": "we-on",
+    "title": "We On",
+    "titleKo": null,
+    "aliases": [],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-09-11"
+  },
+  {
+    "songId": "if-i-ruled-the-world",
+    "title": "If I Ruled the World",
+    "titleKo": null,
+    "aliases": [
+      "如果我统治世界"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-09-11"
+  },
+  {
+    "songId": "coffee",
+    "title": "Coffee",
+    "titleKo": null,
+    "aliases": [
+      "咖啡"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-09-11"
+  },
+  {
+    "songId": "bts-cypher-pt1",
+    "title": "BTS Cypher Pt.1",
+    "titleKo": null,
+    "aliases": [
+      "cypher 1"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-09-11"
+  },
+  {
+    "songId": "outro-luv-in-skool",
+    "title": "Outro: Luv in Skool",
+    "titleKo": null,
+    "aliases": [
+      "luv in skool"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog",
+    "released": "2013-09-11"
+  },
+  {
+    "songId": "where-you-from",
+    "title": "Where You From",
+    "titleKo": null,
+    "aliases": [
+      "你从哪里来"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-02-12"
+  },
+  {
+    "songId": "bts-cypher-pt2",
+    "title": "BTS Cypher Pt.2: Triptych",
+    "titleKo": null,
+    "aliases": [
+      "cypher 2",
+      "triptych"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-02-12"
+  },
+  {
+    "songId": "outro-propose",
+    "title": "Outro: Propose",
+    "titleKo": null,
+    "aliases": [
+      "propose"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-02-12"
+  },
+  {
+    "songId": "miss-right",
+    "title": "Miss Right",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Skool Luv Affair Special Addition",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-05-14"
+  },
+  {
+    "songId": "i-like-it-pt2",
+    "title": "I Like It Pt.2",
+    "titleKo": "좋아요 Pt.2",
+    "aliases": [
+      "喜欢 pt.2",
+      "like pt2"
+    ],
+    "album": "Skool Luv Affair Special Addition",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-05-14"
+  },
+  {
+    "songId": "war-of-hormone",
+    "title": "War of Hormone",
+    "titleKo": "호르몬 전쟁",
+    "aliases": [
+      "荷尔蒙战争"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "let-me-know",
+    "title": "Let Me Know",
+    "titleKo": null,
+    "aliases": [],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "rain",
+    "title": "Rain",
+    "titleKo": null,
+    "aliases": [
+      "雨"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "bts-cypher-pt3",
+    "title": "BTS Cypher Pt.3: Killer",
+    "titleKo": null,
+    "aliases": [
+      "cypher 3",
+      "killer"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "could-you-turn-off",
+    "title": "Could You Turn Off Your Cell Phone",
+    "titleKo": "핸드폰 좀 꺼줄래",
+    "aliases": [
+      "关掉手机"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "embarrassed",
+    "title": "Embarrassed",
+    "titleKo": "이불킥",
+    "aliases": [
+      "踢被子"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "24-7-heaven",
+    "title": "24/7=Heaven",
+    "titleKo": null,
+    "aliases": [
+      "24/7 heaven"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "look-here",
+    "title": "Look Here",
+    "titleKo": "여기 봐",
+    "aliases": [],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "second-grade",
+    "title": "2nd Grade",
+    "titleKo": "2학년",
+    "aliases": [
+      "二年级",
+      "second grade"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "outro-does-that-make-sense",
+    "title": "Outro: Does That Make Sense?",
+    "titleKo": "그게 말이 돼?",
+    "aliases": [
+      "那像话吗"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-08-20"
+  },
+  {
+    "songId": "wake-up",
+    "title": "Wake Up",
+    "titleKo": null,
+    "aliases": [],
+    "album": "WAKE UP（日语）",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-12-24"
+  },
+  {
+    "songId": "the-stars",
+    "title": "The Stars",
+    "titleKo": null,
+    "aliases": [
+      "星星"
+    ],
+    "album": "WAKE UP（日语）",
+    "year": 2014,
+    "kind": "catalog",
+    "released": "2014-12-24"
+  },
+  {
+    "songId": "hold-me-tight",
+    "title": "Hold Me Tight",
+    "titleKo": "잡아줘",
+    "aliases": [
+      "抓住我"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog",
+    "released": "2015-04-29"
+  },
+  {
+    "songId": "converse-high",
+    "title": "Converse High",
+    "titleKo": null,
+    "aliases": [
+      "匡威"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog",
+    "released": "2015-04-29"
+  },
+  {
+    "songId": "moving-on",
+    "title": "Moving On",
+    "titleKo": "이사",
+    "aliases": [
+      "搬家"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog",
+    "released": "2015-04-29"
+  },
+  {
+    "songId": "outro-love-is-not-over",
+    "title": "Outro: Love Is Not Over",
+    "titleKo": null,
+    "aliases": [
+      "love is not over",
+      "爱还没结束"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog",
+    "released": "2015-04-29"
+  },
+  {
+    "songId": "good-day",
+    "title": "Good Day",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Youth（日语）",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-09-07"
+  },
+  {
+    "songId": "wishing-on-a-star",
+    "title": "Wishing on a Star",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Youth（日语）",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-09-07"
+  },
+  {
+    "songId": "lost",
+    "title": "Lost",
+    "titleKo": null,
+    "aliases": [
+      "迷路"
+    ],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-10-10"
+  },
+  {
+    "songId": "bts-cypher-4",
+    "title": "BTS Cypher 4",
+    "titleKo": null,
+    "aliases": [
+      "cypher 4"
+    ],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-10-10"
+  },
+  {
+    "songId": "am-i-wrong",
+    "title": "Am I Wrong",
+    "titleKo": null,
+    "aliases": [],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-10-10"
+  },
+  {
+    "songId": "21st-century-girl",
+    "title": "21st Century Girl",
+    "titleKo": null,
+    "aliases": [
+      "21世纪少女"
+    ],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-10-10"
+  },
+  {
+    "songId": "two-three",
+    "title": "2! 3!",
+    "titleKo": null,
+    "aliases": [
+      "二三",
+      "2 3",
+      "hoping for more good days"
+    ],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog",
+    "released": "2016-10-10"
+  },
+  {
+    "songId": "supplementary-story",
+    "title": "A Supplementary Story: You Never Walk Alone",
+    "titleKo": null,
+    "aliases": [
+      "you never walk alone",
+      "ynwa"
+    ],
+    "album": "YOU NEVER WALK ALONE",
+    "year": 2017,
+    "kind": "catalog",
+    "released": "2017-02-13"
+  },
+  {
+    "songId": "outro-her",
+    "title": "Outro: Her",
+    "titleKo": null,
+    "aliases": [],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog",
+    "released": "2017-09-18"
+  },
+  {
+    "songId": "sea",
+    "title": "Sea",
+    "titleKo": "바다",
+    "aliases": [
+      "大海"
+    ],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog",
+    "released": "2017-09-18"
+  },
+  {
+    "songId": "dont-leave-me",
+    "title": "Don't Leave Me",
+    "titleKo": null,
+    "aliases": [
+      "别离开我"
+    ],
+    "album": "FACE YOURSELF（日语）",
+    "year": 2018,
+    "kind": "catalog",
+    "released": "2018-04-04"
+  },
+  {
+    "songId": "let-go",
+    "title": "Let Go",
+    "titleKo": null,
+    "aliases": [],
+    "album": "FACE YOURSELF（日语）",
+    "year": 2018,
+    "kind": "catalog",
+    "released": "2018-04-04"
+  },
+  {
+    "songId": "the-truth-untold",
+    "title": "The Truth Untold",
+    "titleKo": "전하지 못한 진심",
+    "aliases": [
+      "未说出的真心"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog",
+    "released": "2018-05-18"
+  },
+  {
+    "songId": "answer-love-myself",
+    "title": "Answer: Love Myself",
+    "titleKo": null,
+    "aliases": [
+      "love myself",
+      "爱自己"
+    ],
+    "album": "LOVE YOURSELF 結 'Answer'",
+    "year": 2018,
+    "kind": "catalog",
+    "released": "2018-08-24"
+  },
+  {
+    "songId": "jamais-vu",
+    "title": "Jamais Vu",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : PERSONA",
+    "year": 2019,
+    "kind": "catalog",
+    "released": "2019-04-12"
+  },
+  {
+    "songId": "heartbeat",
+    "title": "Heartbeat",
+    "titleKo": null,
+    "aliases": [
+      "心跳"
+    ],
+    "album": "BTS WORLD OST",
+    "year": 2019,
+    "kind": "catalog",
+    "released": "2019-06-14"
+  },
+  {
+    "songId": "lights",
+    "title": "Lights",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Lights/Boy With Luv（日语单曲）",
+    "year": 2019,
+    "kind": "catalog",
+    "released": "2019-07-03"
+  },
+  {
+    "songId": "friends",
+    "title": "Friends",
+    "titleKo": "친구",
+    "aliases": [
+      "朋友"
+    ],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-02-21"
+  },
+  {
+    "songId": "respect",
+    "title": "Respect",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-02-21"
+  },
+  {
+    "songId": "stay-gold",
+    "title": "Stay Gold",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : 7 ~ THE JOURNEY ~（日语）",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-07-15"
+  },
+  {
+    "songId": "your-eyes-tell",
+    "title": "Your eyes tell",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : 7 ~ THE JOURNEY ~（日语）",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-07-15"
+  },
+  {
+    "songId": "fly-to-my-room",
+    "title": "Fly To My Room",
+    "titleKo": "내 방을 여행하는 법",
+    "aliases": [
+      "在房间里旅行"
+    ],
+    "album": "BE",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-11-20"
+  },
+  {
+    "songId": "blue-and-grey",
+    "title": "Blue & Grey",
+    "titleKo": null,
+    "aliases": [
+      "蓝与灰",
+      "blue and grey"
+    ],
+    "album": "BE",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-11-20"
+  },
+  {
+    "songId": "stay",
+    "title": "Stay",
+    "titleKo": null,
+    "aliases": [],
+    "album": "BE",
+    "year": 2020,
+    "kind": "catalog",
+    "released": "2020-11-20"
+  },
+  {
+    "songId": "film-out",
+    "title": "Film out",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Film out（日语单曲）",
+    "year": 2021,
+    "kind": "catalog",
+    "released": "2021-04-02"
+  },
+  {
+    "songId": "born-singer",
+    "title": "Born Singer",
+    "titleKo": null,
+    "aliases": [
+      "天生歌手"
+    ],
+    "album": "Proof",
+    "year": 2022,
+    "kind": "catalog",
+    "released": "2022-06-10"
+  },
+  {
+    "songId": "yet-to-come",
+    "title": "Yet To Come",
+    "titleKo": null,
+    "aliases": [
+      "the most beautiful moment"
+    ],
+    "album": "Proof",
+    "year": 2022,
+    "kind": "catalog",
+    "released": "2022-06-10"
+  },
+  {
+    "songId": "the-planet",
+    "title": "The Planet",
+    "titleKo": null,
+    "aliases": [
+      "星球"
+    ],
+    "album": "The Planet（BASTIONS OST）",
+    "year": 2023,
+    "kind": "catalog",
+    "released": "2023-05-12"
   }
 ]

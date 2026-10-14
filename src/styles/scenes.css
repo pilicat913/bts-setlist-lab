@@ -426,3 +426,20 @@
   .track__title--long { font-size: clamp(32px, 10vw, 52px); }
   .figure--top { flex-direction: row; gap: 10px; }
 }
+
+/* ------------------------------------------------------- UNPLAYED 未出现 */
+.tabs { grid-template-columns: repeat(3, 1fr); }
+.tabs button { padding-left: 14px; padding-right: 10px; font-size: 18px; }
+.unplayed__head { display: flex; flex-direction: column; gap: 8px; padding: 10px 0; border-bottom: 1px solid var(--ink); }
+.unplayed__head p { margin: 0; font-size: 12px; color: var(--grey); }
+.unplayed__head b { color: var(--red); font-family: var(--f-display); font-weight: 400; font-size: 18px; }
+.unplayed__album { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 12px 0 3px; border-bottom: 1px solid var(--ink); font-weight: 700; font-size: 13px; }
+.unplayed__album em { font-style: normal; font-size: 10px; color: var(--red); white-space: nowrap; }
+.unplayed__k { font-family: var(--f-display); font-size: 18px; color: var(--red); padding: 10px 0 2px; border-bottom: 1px solid var(--ink); }
+.unplayed__row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; width: 100%; padding: 6px 0; border-bottom: 1px solid var(--hair); }
+.unplayed__row:hover .rank__t { color: var(--red); }
+.unplayed__row .rank__t { white-space: normal; }
+.unplayed__meta { font-size: 11px; color: var(--grey); text-align: right; flex: none; max-width: 45%; }
+.unplayed__fine { font-size: 11px; color: var(--grey); margin: 14px 0 0; }
+.detail__none { color: var(--grey); font-size: 14px; margin: 0 0 12px; }
+.unplayed__head .seg { align-self: flex-start; }

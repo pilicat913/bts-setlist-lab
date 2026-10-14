@@ -114,6 +114,9 @@ function Detail({ songId, onBack, go }: { songId: string; onBack: () => void; go
             <b>{apps.length}</b>
             <span>次作为 Surprise Song<br />出现在已核实场次中</span>
           </div>
+          {apps.length === 0 && (
+            <p className="detail__none">这首歌目前还没有在已核实场次中作为随机曲目出现。如果之后被唱到，这里会自动更新。</p>
+          )}
           <ol className="detail__list">
             {apps.map((a, i) => (
               <li key={a.show.showId}>

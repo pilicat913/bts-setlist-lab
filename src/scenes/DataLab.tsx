@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useApp } from '../lib/state';
 import {
-  appearances, dayLabel, fmtDate, pad, ranking, REGION_LABEL, shortZh, songById, stats, verifiedShows, type Show,
+  appearances, catalogSize, dayLabel, fmtDate, pad, ranking, REGION_LABEL, shortZh, songById, stats, unplayed, verifiedShows, type Show, type Song,
 } from '../lib/data';
 import { Arrow } from '../components/bits';
 
@@ -11,7 +11,8 @@ type Density = 's' | 'm' | 'l';
 
 export default function DataLab() {
   const { songId, set, go } = useApp();
-  const [tab, setTab] = useState<'rank' | 'rare'>('rank');
+  const [tab, setTab] = useState<'rank' | 'rare' | 'unplayed'>('rank');
+  const [uSort, setUSort] = useState<'az' | 'release'>('release');
   const [sort, setSort] = useState<Sort>('count');
   const [region, setRegion] = useState('all');
   const [min, setMin] = useState(1);
@@ -83,7 +84,13 @@ export default function DataLab() {
           <button role="tab" aria-selected={tab === 'rare'} className={tab === 'rare' ? 'is-on' : ''} onClick={() => setTab('rare')}>
             RARE <em>仅出现一次 · {stats.once.length}</em>
           </button>
+          <button role="tab" aria-selected={tab === 'unplayed'} className={tab === 'unplayed' ? 'is-on' : ''} onClick={() => setTab('unplayed')}>
+            UNPLAYED <em>未出现 · {unplayed.length}</em>
+          </button>
         </div>
+        {tab === 'unplayed' ? (
+          <Unplayed sort={uSort} setSort={setUSort} onSong={(id) => go('finder', { songId: id, query: '' })} />
+        ) : (
         <div className="ranklist">
           {(tab === 'rank' ? ranking : stats.once).map((r) => {
             const on = songId === r.song.songId;
@@ -117,6 +124,7 @@ export default function DataLab() {
             );
           })}
         </div>
+        )}
       </aside>
 
       {/* ------------------------------------------------------ matrix */}
@@ -220,5 +228,61 @@ export default function DataLab() {
         </div>
       </div>
     </section>
+  );
+}
+
+function Unplayed({ sort, setSort, onSong }: { sort: 'az' | 'release'; setSort: (s: 'az' | 'release') => void; onSong: (id: string) => void }) {
+  const groups = useMemo(() => {
+    const g = new Map<string, Song[]>();
+    const list = [...unplayed].sort((a, b) =>
+      sort === 'az'
+        ? a.title.localeCompare(b.title, 'en', { numeric: true })
+        : (a.released ?? '9').localeCompare(b.released ?? '9') || a.title.localeCompare(b.title, 'en', { numeric: true }),
+    );
+    for (const s of list) {
+      const k = sort === 'az' ? (/[a-z]/i.test(s.title[0]) ? s.title[0].toUpperCase() : '#') : `${s.album ?? '—'}|${s.released ?? ''}`;
+      g.set(k, [...(g.get(k) ?? []), s]);
+    }
+    return [...g.entries()];
+  }, [sort]);
+  return (
+    <div className="ranklist unplayed">
+      <div className="unplayed__head">
+        <p>
+          曲库共 {catalogSize} 首团体曲与小分队曲，其中 <b>{unplayed.length}</b> 首尚未在已核实场次中作为随机曲目出现。
+        </p>
+        <div className="seg" role="group" aria-label="排序">
+          <button className={sort === 'release' ? 'is-on' : ''} onClick={() => setSort('release')}>按专辑发行</button>
+          <button className={sort === 'az' ? 'is-on' : ''} onClick={() => setSort('az')}>A–Z</button>
+        </div>
+      </div>
+      {groups.map(([k, items]) => {
+        const [album, date] = k.split('|');
+        return (
+          <div key={k} className="unplayed__group">
+            {sort === 'az' ? (
+              <div className="unplayed__k">{k}</div>
+            ) : (
+              <div className="unplayed__album">
+                <span>{album}</span>
+                <em className="mono">{date ? date.replace(/-/g, '.') : ''}</em>
+              </div>
+            )}
+            {items.map((s) => (
+              <button key={s.songId} className="unplayed__row" onClick={() => onSong(s.songId)}>
+                <span className="rank__t">
+                  {s.title}
+                  {s.titleKo && <i>{s.titleKo}</i>}
+                </span>
+                {sort === 'az' && <span className="unplayed__meta">{s.album}{s.year ? ` · ${s.year}` : ''}</span>}
+              </button>
+            ))}
+          </div>
+        );
+      })}
+      <p className="unplayed__fine">
+        范围：韩语、日语正式发行的团体曲与小分队曲。不含 solo 曲、Intro / Skit / Interlude、以其他艺人为主的合作曲、日语重录版，以及本巡演的固定曲目。
+      </p>
+    </div>
   );
 }
