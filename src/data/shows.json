@@ -1,0 +1,3260 @@
+{
+  "tour": {
+    "tourId": "arirang",
+    "name": "BTS WORLD TOUR 'ARIRANG'",
+    "nameZh": "ARIRANG 世界巡演",
+    "album": "ARIRANG",
+    "period": "2026-04-09 — 2027-03-16",
+    "announcedShows": 88,
+    "surpriseFormat": "安可段 Dynamite 之后演唱两首随机曲目（个别场次例外）。",
+    "setlistTemplate": {
+      "basis": "2026-04-09 高阳首场完整歌单（Consequence 逐首报道），并与 2026-10 波哥大场的媒体报道交叉比对。仅作为参考框架，不代表每一场的逐场核实歌单。",
+      "sources": [
+        "consequence",
+        "13cl",
+        "fzine"
+      ],
+      "acts": [
+        {
+          "act": "ACT 1",
+          "items": [
+            {
+              "songId": "hooligan",
+              "note": "Show Intro 含 Hooligan 元素"
+            },
+            {
+              "songId": "aliens"
+            },
+            {
+              "songId": "run-bts",
+              "note": "Remix"
+            },
+            {
+              "songId": "they-dont-know-bout-us"
+            },
+            {
+              "songId": "like-animals",
+              "note": "衔接 FAKE LOVE"
+            },
+            {
+              "songId": "fake-love",
+              "note": "Remix"
+            },
+            {
+              "songId": "swim"
+            },
+            {
+              "songId": "merry-go-round"
+            }
+          ]
+        },
+        {
+          "act": "ACT 2",
+          "items": [
+            {
+              "songId": "two-point-zero"
+            },
+            {
+              "songId": "normal"
+            },
+            {
+              "songId": "not-today",
+              "note": "Remix"
+            },
+            {
+              "songId": "mic-drop"
+            },
+            {
+              "songId": "fya"
+            },
+            {
+              "songId": "fire",
+              "note": "含 FYA 元素"
+            },
+            {
+              "songId": "body-to-body"
+            },
+            {
+              "songId": "idol"
+            }
+          ]
+        },
+        {
+          "act": "ENCORE",
+          "items": [
+            {
+              "songId": "come-over"
+            },
+            {
+              "songId": "butter"
+            },
+            {
+              "songId": "dynamite"
+            },
+            {
+              "slot": "surprise"
+            },
+            {
+              "songId": "please"
+            },
+            {
+              "songId": "into-the-sun"
+            }
+          ]
+        }
+      ]
+    },
+    "dataUpdatedAt": "2026-10-15"
+  },
+  "shows": [
+    {
+      "showId": "arirang-2026-04-09-goyang",
+      "tour": "arirang",
+      "seq": 1,
+      "date": "2026-04-09",
+      "dayIndex": 1,
+      "cityKey": "goyang",
+      "city": "Goyang",
+      "cityZh": "高阳",
+      "country": "South Korea",
+      "countryZh": "韩国",
+      "countryCode": "KR",
+      "region": "asia",
+      "venue": "Goyang Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "mikrokosmos",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "i-need-u",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": {
+        "basis": "verified",
+        "sources": [
+          "consequence"
+        ],
+        "items": [
+          {
+            "act": "ACT 1",
+            "songId": "hooligan",
+            "type": "fixed",
+            "note": "Show Intro 含 Hooligan 元素"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "aliens",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "run-bts",
+            "type": "fixed",
+            "note": "Remix"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "they-dont-know-bout-us",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "like-animals",
+            "type": "fixed",
+            "note": "衔接 FAKE LOVE"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "fake-love",
+            "type": "fixed",
+            "note": "Remix"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "swim",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 1",
+            "songId": "merry-go-round",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "two-point-zero",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "normal",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "not-today",
+            "type": "fixed",
+            "note": "Remix"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "mic-drop",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "fya",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "fire",
+            "type": "fixed",
+            "note": "含 FYA 元素"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "body-to-body",
+            "type": "fixed"
+          },
+          {
+            "act": "ACT 2",
+            "songId": "idol",
+            "type": "fixed"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "come-over",
+            "type": "fixed"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "butter",
+            "type": "fixed"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "dynamite",
+            "type": "fixed"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "mikrokosmos",
+            "type": "surprise"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "i-need-u",
+            "type": "surprise"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "please",
+            "type": "fixed"
+          },
+          {
+            "act": "ENCORE",
+            "songId": "into-the-sun",
+            "type": "fixed"
+          }
+        ]
+      },
+      "setlistChanges": [],
+      "notes": [
+        "官方日程中亦标注为 Seoul（首尔）站。"
+      ],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "consequence",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-11-goyang",
+      "tour": "arirang",
+      "seq": 2,
+      "date": "2026-04-11",
+      "dayIndex": 2,
+      "cityKey": "goyang",
+      "city": "Goyang",
+      "cityZh": "高阳",
+      "country": "South Korea",
+      "countryZh": "韩国",
+      "countryCode": "KR",
+      "region": "asia",
+      "venue": "Goyang Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "take-two",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "dna",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-12-goyang",
+      "tour": "arirang",
+      "seq": 3,
+      "date": "2026-04-12",
+      "dayIndex": 3,
+      "cityKey": "goyang",
+      "city": "Goyang",
+      "cityZh": "高阳",
+      "country": "South Korea",
+      "countryZh": "韩国",
+      "countryCode": "KR",
+      "region": "asia",
+      "venue": "Goyang Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "spring-day",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "run",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-17-tokyo",
+      "tour": "arirang",
+      "seq": 4,
+      "date": "2026-04-17",
+      "dayIndex": 1,
+      "cityKey": "tokyo",
+      "city": "Tokyo",
+      "cityZh": "东京",
+      "country": "Japan",
+      "countryZh": "日本",
+      "countryCode": "JP",
+      "region": "asia",
+      "venue": "Tokyo Dome",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "save-me",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "crystal-snow",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-18-tokyo",
+      "tour": "arirang",
+      "seq": 5,
+      "date": "2026-04-18",
+      "dayIndex": 2,
+      "cityKey": "tokyo",
+      "city": "Tokyo",
+      "cityZh": "东京",
+      "country": "Japan",
+      "countryZh": "日本",
+      "countryCode": "JP",
+      "region": "asia",
+      "venue": "Tokyo Dome",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "dope",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "for-you",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-25-tampa",
+      "tour": "arirang",
+      "seq": 6,
+      "date": "2026-04-25",
+      "dayIndex": 1,
+      "cityKey": "tampa",
+      "city": "Tampa",
+      "cityZh": "塔帕",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Raymond James Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "permission-to-dance",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "magic-shop",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-26-tampa",
+      "tour": "arirang",
+      "seq": 7,
+      "date": "2026-04-26",
+      "dayIndex": 2,
+      "cityKey": "tampa",
+      "city": "Tampa",
+      "cityZh": "塔帕",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Raymond James Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "boy-with-luv",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "pied-piper",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "fzine",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-04-28-tampa",
+      "tour": "arirang",
+      "seq": 8,
+      "date": "2026-04-28",
+      "dayIndex": 3,
+      "cityKey": "tampa",
+      "city": "Tampa",
+      "cityZh": "塔帕",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Raymond James Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "life-goes-on",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "silver-spoon",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-02-elpaso",
+      "tour": "arirang",
+      "seq": 9,
+      "date": "2026-05-02",
+      "dayIndex": 1,
+      "cityKey": "elpaso",
+      "city": "El Paso",
+      "cityZh": "埃尔帕索",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Sun Bowl Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "on",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "outro-wings",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-03-elpaso",
+      "tour": "arirang",
+      "seq": 10,
+      "date": "2026-05-03",
+      "dayIndex": 2,
+      "cityKey": "elpaso",
+      "city": "El Paso",
+      "cityZh": "埃尔帕索",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Sun Bowl Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "dionysus",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "best-of-me",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-07-mexico",
+      "tour": "arirang",
+      "seq": 11,
+      "date": "2026-05-07",
+      "dayIndex": 1,
+      "cityKey": "mexico",
+      "city": "Mexico City",
+      "cityZh": "墨西哥城",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "countryCode": "MX",
+      "region": "north-america",
+      "venue": "Estadio GNP Seguros",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "boy-in-luv",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "so-what",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-09-mexico",
+      "tour": "arirang",
+      "seq": 12,
+      "date": "2026-05-09",
+      "dayIndex": 2,
+      "cityKey": "mexico",
+      "city": "Mexico City",
+      "cityZh": "墨西哥城",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "countryCode": "MX",
+      "region": "north-america",
+      "venue": "Estadio GNP Seguros",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "we-are-bulletproof-pt2",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "just-one-day",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-10-mexico",
+      "tour": "arirang",
+      "seq": 13,
+      "date": "2026-05-10",
+      "dayIndex": 3,
+      "cityKey": "mexico",
+      "city": "Mexico City",
+      "cityZh": "墨西哥城",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "countryCode": "MX",
+      "region": "north-america",
+      "venue": "Estadio GNP Seguros",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "airplane-pt2",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "spring-day",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-16-stanford",
+      "tour": "arirang",
+      "seq": 14,
+      "date": "2026-05-16",
+      "dayIndex": 1,
+      "cityKey": "stanford",
+      "city": "Stanford",
+      "cityZh": "斯坦福",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Stanford Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "no",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "anpanman",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-17-stanford",
+      "tour": "arirang",
+      "seq": 15,
+      "date": "2026-05-17",
+      "dayIndex": 2,
+      "cityKey": "stanford",
+      "city": "Stanford",
+      "cityZh": "斯坦福",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Stanford Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "dope",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "blood-sweat-tears",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-19-stanford",
+      "tour": "arirang",
+      "seq": 16,
+      "date": "2026-05-19",
+      "dayIndex": 3,
+      "cityKey": "stanford",
+      "city": "Stanford",
+      "cityZh": "斯坦福",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Stanford Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "i-need-u",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "no-more-dream",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-23-lasvegas",
+      "tour": "arirang",
+      "seq": 17,
+      "date": "2026-05-23",
+      "dayIndex": 1,
+      "cityKey": "lasvegas",
+      "city": "Las Vegas",
+      "cityZh": "拉斯维加斯",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Allegiant Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "permission-to-dance",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "go-go",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [
+        "场馆实际位于内华达州 Paradise（拉斯维加斯都会区）。"
+      ],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-24-lasvegas",
+      "tour": "arirang",
+      "seq": 18,
+      "date": "2026-05-24",
+      "dayIndex": 2,
+      "cityKey": "lasvegas",
+      "city": "Las Vegas",
+      "cityZh": "拉斯维加斯",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Allegiant Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "black-swan",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "spine-breaker",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-27-lasvegas",
+      "tour": "arirang",
+      "seq": 19,
+      "date": "2026-05-27",
+      "dayIndex": 3,
+      "cityKey": "lasvegas",
+      "city": "Las Vegas",
+      "cityZh": "拉斯维加斯",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Allegiant Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "anpanman",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "attack-on-bangtan",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-05-28-lasvegas",
+      "tour": "arirang",
+      "seq": 20,
+      "date": "2026-05-28",
+      "dayIndex": 4,
+      "cityKey": "lasvegas",
+      "city": "Las Vegas",
+      "cityZh": "拉斯维加斯",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Allegiant Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "boyz-with-fun",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "danger",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-06-12-busan",
+      "tour": "arirang",
+      "seq": 21,
+      "date": "2026-06-12",
+      "dayIndex": 1,
+      "cityKey": "busan",
+      "city": "Busan",
+      "cityZh": "釜山",
+      "country": "South Korea",
+      "countryZh": "韩国",
+      "countryCode": "KR",
+      "region": "asia",
+      "venue": "Busan Asiad Main Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "paldogangsan",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "ma-city",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [
+        {
+          "type": "replace",
+          "target": "please",
+          "with": "one-more-night",
+          "note": "釜山两场以 One More Night 替代 Please"
+        },
+        {
+          "type": "annotate",
+          "target": "normal",
+          "note": "演唱韩语版本"
+        }
+      ],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "koreatimes-busan",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-06-13-busan",
+      "tour": "arirang",
+      "seq": 22,
+      "date": "2026-06-13",
+      "dayIndex": 2,
+      "cityKey": "busan",
+      "city": "Busan",
+      "cityZh": "釜山",
+      "country": "South Korea",
+      "countryZh": "韩国",
+      "countryCode": "KR",
+      "region": "asia",
+      "venue": "Busan Asiad Main Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "dimple",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "ddaeng",
+          "slot": 2,
+          "form": "unspecified"
+        },
+        {
+          "songId": "magic-shop",
+          "slot": 3,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [
+        {
+          "type": "replace",
+          "target": "please",
+          "with": "one-more-night",
+          "note": "釜山两场以 One More Night 替代 Please"
+        },
+        {
+          "type": "annotate",
+          "target": "normal",
+          "note": "演唱韩语版本"
+        }
+      ],
+      "notes": [
+        "本场演唱了三首随机歌曲（Wikipedia、F Zine 一致）。KPopGo 列为 IDOL / Ddaeng，与其他来源冲突，未采用。"
+      ],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "fzine",
+        "koreatimes-busan",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-06-26-madrid",
+      "tour": "arirang",
+      "seq": 23,
+      "date": "2026-06-26",
+      "dayIndex": 1,
+      "cityKey": "madrid",
+      "city": "Madrid",
+      "cityZh": "马德里",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "countryCode": "ES",
+      "region": "europe",
+      "venue": "Riyadh Air Metropolitano",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "airplane-pt2",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "outro-wings",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-06-27-madrid",
+      "tour": "arirang",
+      "seq": 24,
+      "date": "2026-06-27",
+      "dayIndex": 2,
+      "cityKey": "madrid",
+      "city": "Madrid",
+      "cityZh": "马德里",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "countryCode": "ES",
+      "region": "europe",
+      "venue": "Riyadh Air Metropolitano",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "mikrokosmos",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "best-of-me",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-01-brussels",
+      "tour": "arirang",
+      "seq": 25,
+      "date": "2026-07-01",
+      "dayIndex": 1,
+      "cityKey": "brussels",
+      "city": "Brussels",
+      "cityZh": "布鲁塞尔",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryCode": "BE",
+      "region": "europe",
+      "venue": "King Baudouin Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "tomorrow",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "boy-with-luv",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-02-brussels",
+      "tour": "arirang",
+      "seq": 26,
+      "date": "2026-07-02",
+      "dayIndex": 2,
+      "cityKey": "brussels",
+      "city": "Brussels",
+      "cityZh": "布鲁塞尔",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryCode": "BE",
+      "region": "europe",
+      "venue": "King Baudouin Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "on",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "for-youth",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-06-london",
+      "tour": "arirang",
+      "seq": 27,
+      "date": "2026-07-06",
+      "dayIndex": 1,
+      "cityKey": "london",
+      "city": "London",
+      "cityZh": "伦敦",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "countryCode": "GB",
+      "region": "europe",
+      "venue": "Tottenham Hotspur Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "life-goes-on",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "dionysus",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-07-london",
+      "tour": "arirang",
+      "seq": 28,
+      "date": "2026-07-07",
+      "dayIndex": 2,
+      "cityKey": "london",
+      "city": "London",
+      "cityZh": "伦敦",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "countryCode": "GB",
+      "region": "europe",
+      "venue": "Tottenham Hotspur Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "save-me",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "epilogue-young-forever",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-11-munich",
+      "tour": "arirang",
+      "seq": 29,
+      "date": "2026-07-11",
+      "dayIndex": 1,
+      "cityKey": "munich",
+      "city": "Munich",
+      "cityZh": "慕尼黑",
+      "country": "Germany",
+      "countryZh": "德国",
+      "countryCode": "DE",
+      "region": "europe",
+      "venue": "Allianz Arena",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "silver-spoon",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "pied-piper",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-12-munich",
+      "tour": "arirang",
+      "seq": 30,
+      "date": "2026-07-12",
+      "dayIndex": 2,
+      "cityKey": "munich",
+      "city": "Munich",
+      "cityZh": "慕尼黑",
+      "country": "Germany",
+      "countryZh": "德国",
+      "countryCode": "DE",
+      "region": "europe",
+      "venue": "Allianz Arena",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "louder-than-bombs",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "blood-sweat-tears",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-17-paris",
+      "tour": "arirang",
+      "seq": 31,
+      "date": "2026-07-17",
+      "dayIndex": 1,
+      "cityKey": "paris",
+      "city": "Paris",
+      "cityZh": "巴黎",
+      "country": "France",
+      "countryZh": "法国",
+      "countryCode": "FR",
+      "region": "europe",
+      "venue": "Stade de France",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "jump",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "boy-with-luv",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [
+        "场馆位于巴黎近郊 Saint-Denis。"
+      ],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-07-18-paris",
+      "tour": "arirang",
+      "seq": 32,
+      "date": "2026-07-18",
+      "dayIndex": 2,
+      "cityKey": "paris",
+      "city": "Paris",
+      "cityZh": "巴黎",
+      "country": "France",
+      "countryZh": "法国",
+      "countryCode": "FR",
+      "region": "europe",
+      "venue": "Stade de France",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "so-what",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "wab-the-eternal",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-01-eastrutherford",
+      "tour": "arirang",
+      "seq": 33,
+      "date": "2026-08-01",
+      "dayIndex": 1,
+      "cityKey": "eastrutherford",
+      "city": "East Rutherford",
+      "cityZh": "东卢瑟福",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "MetLife Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "dis-ease",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "run",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-02-eastrutherford",
+      "tour": "arirang",
+      "seq": 34,
+      "date": "2026-08-02",
+      "dayIndex": 2,
+      "cityKey": "eastrutherford",
+      "city": "East Rutherford",
+      "cityZh": "东卢瑟福",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "MetLife Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "autumn-leaves",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "go-go",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-05-foxborough",
+      "tour": "arirang",
+      "seq": 35,
+      "date": "2026-08-05",
+      "dayIndex": 1,
+      "cityKey": "foxborough",
+      "city": "Foxborough",
+      "cityZh": "福克斯堡",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Gillette Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "paradise",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "no-more-dream",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-06-foxborough",
+      "tour": "arirang",
+      "seq": 36,
+      "date": "2026-08-06",
+      "dayIndex": 2,
+      "cityKey": "foxborough",
+      "city": "Foxborough",
+      "cityZh": "福克斯堡",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Gillette Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "make-it-right",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "no",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-10-baltimore",
+      "tour": "arirang",
+      "seq": 37,
+      "date": "2026-08-10",
+      "dayIndex": 1,
+      "cityKey": "baltimore",
+      "city": "Baltimore",
+      "cityZh": "巴尔的摩",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "M&T Bank Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "telepathy",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "boy-in-luv",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-11-baltimore",
+      "tour": "arirang",
+      "seq": 38,
+      "date": "2026-08-11",
+      "dayIndex": 2,
+      "cityKey": "baltimore",
+      "city": "Baltimore",
+      "cityZh": "巴尔的摩",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "M&T Bank Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "best-of-me",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "just-one-day",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-15-arlington",
+      "tour": "arirang",
+      "seq": 39,
+      "date": "2026-08-15",
+      "dayIndex": 1,
+      "cityKey": "arlington",
+      "city": "Arlington",
+      "cityZh": "阿灵顿",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "AT&T Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "permission-to-dance",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "go-go",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-16-arlington",
+      "tour": "arirang",
+      "seq": 40,
+      "date": "2026-08-16",
+      "dayIndex": 2,
+      "cityKey": "arlington",
+      "city": "Arlington",
+      "cityZh": "阿灵顿",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "AT&T Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "butterfly",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "dna",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-22-toronto",
+      "tour": "arirang",
+      "seq": 41,
+      "date": "2026-08-22",
+      "dayIndex": 1,
+      "cityKey": "toronto",
+      "city": "Toronto",
+      "cityZh": "多伦多",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "countryCode": "CA",
+      "region": "north-america",
+      "venue": "Rogers Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "outro-wings",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "dope",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-23-toronto",
+      "tour": "arirang",
+      "seq": 42,
+      "date": "2026-08-23",
+      "dayIndex": 2,
+      "cityKey": "toronto",
+      "city": "Toronto",
+      "cityZh": "多伦多",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "countryCode": "CA",
+      "region": "north-america",
+      "venue": "Rogers Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "outro-tear",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "zero-oclock",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-27-chicago",
+      "tour": "arirang",
+      "seq": 43,
+      "date": "2026-08-27",
+      "dayIndex": 1,
+      "cityKey": "chicago",
+      "city": "Chicago",
+      "cityZh": "芝加哥",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Soldier Field",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "tomorrow",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "hip-hop-phile",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-08-28-chicago",
+      "tour": "arirang",
+      "seq": 44,
+      "date": "2026-08-28",
+      "dayIndex": 2,
+      "cityKey": "chicago",
+      "city": "Chicago",
+      "cityZh": "芝加哥",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "Soldier Field",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "134340",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "mikrokosmos",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-09-01-inglewood",
+      "tour": "arirang",
+      "seq": 45,
+      "date": "2026-09-01",
+      "dayIndex": 1,
+      "cityKey": "inglewood",
+      "city": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "SoFi Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "boy-in-luv",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "magic-shop",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [
+        "场馆 SoFi Stadium 位于洛杉矶都会区的 Inglewood。"
+      ],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": [
+        "现场为 Jung Kook 庆生 · Happy Jung Kook's Birthday"
+      ]
+    },
+    {
+      "showId": "arirang-2026-09-02-inglewood",
+      "tour": "arirang",
+      "seq": 46,
+      "date": "2026-09-02",
+      "dayIndex": 2,
+      "cityKey": "inglewood",
+      "city": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "SoFi Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "love-maze",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "silver-spoon",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-09-05-inglewood",
+      "tour": "arirang",
+      "seq": 47,
+      "date": "2026-09-05",
+      "dayIndex": 3,
+      "cityKey": "inglewood",
+      "city": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "SoFi Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "home",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "pied-piper",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "billboard",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-09-06-inglewood",
+      "tour": "arirang",
+      "seq": 48,
+      "date": "2026-09-06",
+      "dayIndex": 4,
+      "cityKey": "inglewood",
+      "city": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "region": "north-america",
+      "venue": "SoFi Stadium",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "whalien-52",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "spring-day",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": [
+        "现场为 RM 庆生 · Happy RM's Birthday"
+      ]
+    },
+    {
+      "showId": "arirang-2026-10-02-bogota",
+      "tour": "arirang",
+      "seq": 49,
+      "date": "2026-10-02",
+      "dayIndex": 1,
+      "cityKey": "bogota",
+      "city": "Bogotá",
+      "cityZh": "波哥大",
+      "country": "Colombia",
+      "countryZh": "哥伦比亚",
+      "countryCode": "CO",
+      "region": "latin-america",
+      "venue": "Estadio El Campín",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "im-fine",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "so-what",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "minuto60",
+        "13cl",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-03-bogota",
+      "tour": "arirang",
+      "seq": 50,
+      "date": "2026-10-03",
+      "dayIndex": 2,
+      "cityKey": "bogota",
+      "city": "Bogotá",
+      "cityZh": "波哥大",
+      "country": "Colombia",
+      "countryZh": "哥伦比亚",
+      "countryCode": "CO",
+      "region": "latin-america",
+      "venue": "Estadio El Campín",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "we-are-bulletproof-pt2",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "mikrokosmos",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "13cl",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-07-lima",
+      "tour": "arirang",
+      "seq": 51,
+      "date": "2026-10-07",
+      "dayIndex": 1,
+      "cityKey": "lima",
+      "city": "Lima",
+      "cityZh": "利马",
+      "country": "Peru",
+      "countryZh": "秘鲁",
+      "countryCode": "PE",
+      "region": "latin-america",
+      "venue": "Estadio San Marcos",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "home",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "outro-wings",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-09-lima",
+      "tour": "arirang",
+      "seq": 52,
+      "date": "2026-10-09",
+      "dayIndex": 2,
+      "cityKey": "lima",
+      "city": "Lima",
+      "cityZh": "利马",
+      "country": "Peru",
+      "countryZh": "秘鲁",
+      "countryCode": "PE",
+      "region": "latin-america",
+      "venue": "Estadio San Marcos",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "paldogangsan",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "wab-the-eternal",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-10-lima",
+      "tour": "arirang",
+      "seq": 53,
+      "date": "2026-10-10",
+      "dayIndex": 3,
+      "cityKey": "lima",
+      "city": "Lima",
+      "cityZh": "利马",
+      "country": "Peru",
+      "countryZh": "秘鲁",
+      "countryCode": "PE",
+      "region": "latin-america",
+      "venue": "Estadio San Marcos",
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "house-of-cards",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "ugh",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "kpopgo",
+        "honeypop",
+        "elcomercio",
+        "riotimes",
+        "user-notes"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": [
+        "现场为 Jimin 庆生 · Happy Jimin's Birthday"
+      ]
+    },
+    {
+      "showId": "arirang-2026-10-14-santiago",
+      "tour": "arirang",
+      "seq": 54,
+      "date": "2026-10-14",
+      "dayIndex": 1,
+      "cityKey": "santiago",
+      "city": "Santiago",
+      "cityZh": "圣地亚哥",
+      "country": "Chile",
+      "countryZh": "智利",
+      "countryCode": "CL",
+      "region": "latin-america",
+      "venue": "Estadio Nacional Julio Martínez Prádanos",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-16-santiago",
+      "tour": "arirang",
+      "seq": 55,
+      "date": "2026-10-16",
+      "dayIndex": 2,
+      "cityKey": "santiago",
+      "city": "Santiago",
+      "cityZh": "圣地亚哥",
+      "country": "Chile",
+      "countryZh": "智利",
+      "countryCode": "CL",
+      "region": "latin-america",
+      "venue": "Estadio Nacional Julio Martínez Prádanos",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-17-santiago",
+      "tour": "arirang",
+      "seq": 56,
+      "date": "2026-10-17",
+      "dayIndex": 3,
+      "cityKey": "santiago",
+      "city": "Santiago",
+      "cityZh": "圣地亚哥",
+      "country": "Chile",
+      "countryZh": "智利",
+      "countryCode": "CL",
+      "region": "latin-america",
+      "venue": "Estadio Nacional Julio Martínez Prádanos",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-21-laplata",
+      "tour": "arirang",
+      "seq": 57,
+      "date": "2026-10-21",
+      "dayIndex": 1,
+      "cityKey": "laplata",
+      "city": "Buenos Aires",
+      "cityZh": "布宜诺斯艾利斯",
+      "country": "Argentina",
+      "countryZh": "阿根廷",
+      "countryCode": "AR",
+      "region": "latin-america",
+      "venue": "Estadio Único Diego Armando Maradona",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [
+        "场馆 Estadio Único 位于布宜诺斯艾利斯省 La Plata。"
+      ],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-23-laplata",
+      "tour": "arirang",
+      "seq": 58,
+      "date": "2026-10-23",
+      "dayIndex": 2,
+      "cityKey": "laplata",
+      "city": "Buenos Aires",
+      "cityZh": "布宜诺斯艾利斯",
+      "country": "Argentina",
+      "countryZh": "阿根廷",
+      "countryCode": "AR",
+      "region": "latin-america",
+      "venue": "Estadio Único Diego Armando Maradona",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-24-laplata",
+      "tour": "arirang",
+      "seq": 59,
+      "date": "2026-10-24",
+      "dayIndex": 3,
+      "cityKey": "laplata",
+      "city": "Buenos Aires",
+      "cityZh": "布宜诺斯艾利斯",
+      "country": "Argentina",
+      "countryZh": "阿根廷",
+      "countryCode": "AR",
+      "region": "latin-america",
+      "venue": "Estadio Único Diego Armando Maradona",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-28-saopaulo",
+      "tour": "arirang",
+      "seq": 60,
+      "date": "2026-10-28",
+      "dayIndex": 1,
+      "cityKey": "saopaulo",
+      "city": "São Paulo",
+      "cityZh": "圣保罗",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "countryCode": "BR",
+      "region": "latin-america",
+      "venue": "Estádio MorumBIS",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-30-saopaulo",
+      "tour": "arirang",
+      "seq": 61,
+      "date": "2026-10-30",
+      "dayIndex": 2,
+      "cityKey": "saopaulo",
+      "city": "São Paulo",
+      "cityZh": "圣保罗",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "countryCode": "BR",
+      "region": "latin-america",
+      "venue": "Estádio MorumBIS",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-10-31-saopaulo",
+      "tour": "arirang",
+      "seq": 62,
+      "date": "2026-10-31",
+      "dayIndex": 3,
+      "cityKey": "saopaulo",
+      "city": "São Paulo",
+      "cityZh": "圣保罗",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "countryCode": "BR",
+      "region": "latin-america",
+      "venue": "Estádio MorumBIS",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-11-19-kaohsiung",
+      "tour": "arirang",
+      "seq": 63,
+      "date": "2026-11-19",
+      "dayIndex": 1,
+      "cityKey": "kaohsiung",
+      "city": "Kaohsiung",
+      "cityZh": "高雄",
+      "country": "Taiwan, China",
+      "countryZh": "中国台湾",
+      "countryCode": "TW",
+      "region": "asia",
+      "venue": "Kaohsiung National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation",
+        "usbtsarmy"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-11-21-kaohsiung",
+      "tour": "arirang",
+      "seq": 64,
+      "date": "2026-11-21",
+      "dayIndex": 2,
+      "cityKey": "kaohsiung",
+      "city": "Kaohsiung",
+      "cityZh": "高雄",
+      "country": "Taiwan, China",
+      "countryZh": "中国台湾",
+      "countryCode": "TW",
+      "region": "asia",
+      "venue": "Kaohsiung National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation",
+        "usbtsarmy"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-11-22-kaohsiung",
+      "tour": "arirang",
+      "seq": 65,
+      "date": "2026-11-22",
+      "dayIndex": 3,
+      "cityKey": "kaohsiung",
+      "city": "Kaohsiung",
+      "cityZh": "高雄",
+      "country": "Taiwan, China",
+      "countryZh": "中国台湾",
+      "countryCode": "TW",
+      "region": "asia",
+      "venue": "Kaohsiung National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation",
+        "usbtsarmy"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-03-bangkok",
+      "tour": "arirang",
+      "seq": 66,
+      "date": "2026-12-03",
+      "dayIndex": 1,
+      "cityKey": "bangkok",
+      "city": "Bangkok",
+      "cityZh": "曼谷",
+      "country": "Thailand",
+      "countryZh": "泰国",
+      "countryCode": "TH",
+      "region": "asia",
+      "venue": "Rajamangala National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation",
+        "usbtsarmy"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-05-bangkok",
+      "tour": "arirang",
+      "seq": 67,
+      "date": "2026-12-05",
+      "dayIndex": 2,
+      "cityKey": "bangkok",
+      "city": "Bangkok",
+      "cityZh": "曼谷",
+      "country": "Thailand",
+      "countryZh": "泰国",
+      "countryCode": "TH",
+      "region": "asia",
+      "venue": "Rajamangala National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation",
+        "usbtsarmy"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-06-bangkok",
+      "tour": "arirang",
+      "seq": 68,
+      "date": "2026-12-06",
+      "dayIndex": 3,
+      "cityKey": "bangkok",
+      "city": "Bangkok",
+      "cityZh": "曼谷",
+      "country": "Thailand",
+      "countryZh": "泰国",
+      "countryCode": "TH",
+      "region": "asia",
+      "venue": "Rajamangala National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation",
+        "usbtsarmy"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-12-kualalumpur",
+      "tour": "arirang",
+      "seq": 69,
+      "date": "2026-12-12",
+      "dayIndex": 1,
+      "cityKey": "kualalumpur",
+      "city": "Kuala Lumpur",
+      "cityZh": "吉隆坡",
+      "country": "Malaysia",
+      "countryZh": "马来西亚",
+      "countryCode": "MY",
+      "region": "asia",
+      "venue": "TM National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-13-kualalumpur",
+      "tour": "arirang",
+      "seq": 70,
+      "date": "2026-12-13",
+      "dayIndex": 2,
+      "cityKey": "kualalumpur",
+      "city": "Kuala Lumpur",
+      "cityZh": "吉隆坡",
+      "country": "Malaysia",
+      "countryZh": "马来西亚",
+      "countryCode": "MY",
+      "region": "asia",
+      "venue": "TM National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-17-singapore",
+      "tour": "arirang",
+      "seq": 71,
+      "date": "2026-12-17",
+      "dayIndex": 1,
+      "cityKey": "singapore",
+      "city": "Singapore",
+      "cityZh": "新加坡",
+      "country": "Singapore",
+      "countryZh": "新加坡",
+      "countryCode": "SG",
+      "region": "asia",
+      "venue": "Singapore National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-19-singapore",
+      "tour": "arirang",
+      "seq": 72,
+      "date": "2026-12-19",
+      "dayIndex": 2,
+      "cityKey": "singapore",
+      "city": "Singapore",
+      "cityZh": "新加坡",
+      "country": "Singapore",
+      "countryZh": "新加坡",
+      "countryCode": "SG",
+      "region": "asia",
+      "venue": "Singapore National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-20-singapore",
+      "tour": "arirang",
+      "seq": 73,
+      "date": "2026-12-20",
+      "dayIndex": 3,
+      "cityKey": "singapore",
+      "city": "Singapore",
+      "cityZh": "新加坡",
+      "country": "Singapore",
+      "countryZh": "新加坡",
+      "countryCode": "SG",
+      "region": "asia",
+      "venue": "Singapore National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-22-singapore",
+      "tour": "arirang",
+      "seq": 74,
+      "date": "2026-12-22",
+      "dayIndex": 4,
+      "cityKey": "singapore",
+      "city": "Singapore",
+      "cityZh": "新加坡",
+      "country": "Singapore",
+      "countryZh": "新加坡",
+      "countryCode": "SG",
+      "region": "asia",
+      "venue": "Singapore National Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki",
+        "livenation"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-26-jakarta",
+      "tour": "arirang",
+      "seq": 75,
+      "date": "2026-12-26",
+      "dayIndex": 1,
+      "cityKey": "jakarta",
+      "city": "Jakarta",
+      "cityZh": "雅加达",
+      "country": "Indonesia",
+      "countryZh": "印度尼西亚",
+      "countryCode": "ID",
+      "region": "asia",
+      "venue": "Gelora Bung Karno Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-27-jakarta",
+      "tour": "arirang",
+      "seq": 76,
+      "date": "2026-12-27",
+      "dayIndex": 2,
+      "cityKey": "jakarta",
+      "city": "Jakarta",
+      "cityZh": "雅加达",
+      "country": "Indonesia",
+      "countryZh": "印度尼西亚",
+      "countryCode": "ID",
+      "region": "asia",
+      "venue": "Gelora Bung Karno Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2026-12-29-jakarta",
+      "tour": "arirang",
+      "seq": 77,
+      "date": "2026-12-29",
+      "dayIndex": 3,
+      "cityKey": "jakarta",
+      "city": "Jakarta",
+      "cityZh": "雅加达",
+      "country": "Indonesia",
+      "countryZh": "印度尼西亚",
+      "countryCode": "ID",
+      "region": "asia",
+      "venue": "Gelora Bung Karno Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-02-10-melbourne",
+      "tour": "arirang",
+      "seq": 78,
+      "date": "2027-02-10",
+      "dayIndex": 1,
+      "cityKey": "melbourne",
+      "city": "Melbourne",
+      "cityZh": "墨尔本",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "countryCode": "AU",
+      "region": "oceania",
+      "venue": "Marvel Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-02-12-melbourne",
+      "tour": "arirang",
+      "seq": 79,
+      "date": "2027-02-12",
+      "dayIndex": 2,
+      "cityKey": "melbourne",
+      "city": "Melbourne",
+      "cityZh": "墨尔本",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "countryCode": "AU",
+      "region": "oceania",
+      "venue": "Marvel Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-02-13-melbourne",
+      "tour": "arirang",
+      "seq": 80,
+      "date": "2027-02-13",
+      "dayIndex": 3,
+      "cityKey": "melbourne",
+      "city": "Melbourne",
+      "cityZh": "墨尔本",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "countryCode": "AU",
+      "region": "oceania",
+      "venue": "Marvel Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-02-20-sydney",
+      "tour": "arirang",
+      "seq": 81,
+      "date": "2027-02-20",
+      "dayIndex": 1,
+      "cityKey": "sydney",
+      "city": "Sydney",
+      "cityZh": "悉尼",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "countryCode": "AU",
+      "region": "oceania",
+      "venue": "Accor Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-02-21-sydney",
+      "tour": "arirang",
+      "seq": 82,
+      "date": "2027-02-21",
+      "dayIndex": 2,
+      "cityKey": "sydney",
+      "city": "Sydney",
+      "cityZh": "悉尼",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "countryCode": "AU",
+      "region": "oceania",
+      "venue": "Accor Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-03-04-hongkong",
+      "tour": "arirang",
+      "seq": 83,
+      "date": "2027-03-04",
+      "dayIndex": 1,
+      "cityKey": "hongkong",
+      "city": "Hong Kong",
+      "cityZh": "香港",
+      "country": "Hong Kong, China",
+      "countryZh": "中国香港",
+      "countryCode": "HK",
+      "region": "asia",
+      "venue": "Kai Tak Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-03-06-hongkong",
+      "tour": "arirang",
+      "seq": 84,
+      "date": "2027-03-06",
+      "dayIndex": 2,
+      "cityKey": "hongkong",
+      "city": "Hong Kong",
+      "cityZh": "香港",
+      "country": "Hong Kong, China",
+      "countryZh": "中国香港",
+      "countryCode": "HK",
+      "region": "asia",
+      "venue": "Kai Tak Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-03-07-hongkong",
+      "tour": "arirang",
+      "seq": 85,
+      "date": "2027-03-07",
+      "dayIndex": 3,
+      "cityKey": "hongkong",
+      "city": "Hong Kong",
+      "cityZh": "香港",
+      "country": "Hong Kong, China",
+      "countryZh": "中国香港",
+      "countryCode": "HK",
+      "region": "asia",
+      "venue": "Kai Tak Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-03-13-bocaue",
+      "tour": "arirang",
+      "seq": 86,
+      "date": "2027-03-13",
+      "dayIndex": 1,
+      "cityKey": "bocaue",
+      "city": "Bocaue",
+      "cityZh": "布拉干",
+      "country": "Philippines",
+      "countryZh": "菲律宾",
+      "countryCode": "PH",
+      "region": "asia",
+      "venue": "Philippine Sports Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [
+        "马尼拉都会区附近，Bulacan 省。"
+      ],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-03-14-bocaue",
+      "tour": "arirang",
+      "seq": 87,
+      "date": "2027-03-14",
+      "dayIndex": 2,
+      "cityKey": "bocaue",
+      "city": "Bocaue",
+      "cityZh": "布拉干",
+      "country": "Philippines",
+      "countryZh": "菲律宾",
+      "countryCode": "PH",
+      "region": "asia",
+      "venue": "Philippine Sports Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    },
+    {
+      "showId": "arirang-2027-03-16-bocaue",
+      "tour": "arirang",
+      "seq": 88,
+      "date": "2027-03-16",
+      "dayIndex": 3,
+      "cityKey": "bocaue",
+      "city": "Bocaue",
+      "cityZh": "布拉干",
+      "country": "Philippines",
+      "countryZh": "菲律宾",
+      "countryCode": "PH",
+      "region": "asia",
+      "venue": "Philippine Sports Stadium",
+      "status": "UPCOMING",
+      "surpriseSongs": [],
+      "fullSetlist": null,
+      "setlistChanges": [],
+      "notes": [],
+      "sources": [
+        "wiki"
+      ],
+      "lastVerifiedAt": "2026-10-15",
+      "moments": []
+    }
+  ]
+}

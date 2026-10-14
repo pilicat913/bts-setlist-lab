@@ -1,0 +1,86 @@
+{
+  "wiki": {
+    "label": "Wikipedia · Arirang World Tour",
+    "url": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
+    "type": "database",
+    "accessedAt": "2026-10-15"
+  },
+  "kpopgo": {
+    "label": "KPopGo · BTS ARIRANG Setlist 2026（逐场更新）",
+    "url": "https://kpopgo.art/news/bts-arirang-setlist-2026-guide",
+    "type": "tracker",
+    "accessedAt": "2026-10-15"
+  },
+  "honeypop": {
+    "label": "The Honey Pop · Every Surprise Song",
+    "url": "https://thehoneypop.com/2026/04/13/bts-surprise-songs-arirang-world-tour/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "fzine": {
+    "label": "F Zine · BTS World Tour Arirang Setlist",
+    "url": "https://www.fzine.com/culture/bts-arirang-world-tour-setlist",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "billboard": {
+    "label": "Billboard · Every Surprise Song (So Far)",
+    "url": "https://www.billboard.com/lists/bts-surprise-songs-arirang-tour-every-track/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "consequence": {
+    "label": "Consequence · ARIRANG Tour Kick-Off Setlist",
+    "url": "https://consequence.net/2026/04/bts-tour-setlist-2026/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "koreatimes-busan": {
+    "label": "The Korea Times · BTS returns to Busan",
+    "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260613/bts-celebrates-13th-anniversary-with-return-to-busan",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "minuto60": {
+    "label": "Minuto60 · Concierto de BTS en Bogotá",
+    "url": "https://www.minuto60.com/entretenimiento-cultura/como-fue-concierto-bts-bogota-videos-momentos/16492",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "13cl": {
+    "label": "13.cl · Setlist de BTS en Bogotá",
+    "url": "https://www.13.cl/ar13/noticias/el-listado-de-temas-musicales-que-bts-presentaria-en-chile-dos-canciones-serian",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "elcomercio": {
+    "label": "El Comercio · House of Cards en Lima",
+    "url": "https://elcomercio.pe/luces/musica/bts-eligio-house-of-cards-como-cancion-sorpresa-durante-su-ultimo-concierto-en-peru-k-pop-apuesplan-ultimas-noticia/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "riotimes": {
+    "label": "The Rio Times · BTS in Lima 2026",
+    "url": "https://www.riotimesonline.com/bts-world-tour-arirang-lima-2026/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "livenation": {
+    "label": "Live Nation · BTS Tour Dates",
+    "url": "https://www.livenation.com/artist/K8vZ917KpXV/bts-events",
+    "type": "official-ticketing",
+    "accessedAt": "2026-10-15"
+  },
+  "usbtsarmy": {
+    "label": "US BTS ARMY · ARIRANG World Tour schedule",
+    "url": "https://www.usbtsarmy.com/latest-news-and-events/the-fifth-album-world-tour",
+    "type": "fan-org",
+    "accessedAt": "2026-10-15"
+  },
+  "user-notes": {
+    "label": "站长校对版（逐场备忘录，2026-10-15）",
+    "url": "",
+    "type": "editor",
+    "accessedAt": "2026-10-15"
+  }
+}

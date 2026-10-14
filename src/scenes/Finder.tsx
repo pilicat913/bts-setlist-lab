@@ -1,0 +1,134 @@
+import { useEffect, useMemo, useRef } from 'react';
+import { useApp } from '../lib/state';
+import { appearances, dayLabel, fmtDate, FORM_LABEL, pad, songById, songs, weekday } from '../lib/data';
+import { searchSongs } from '../lib/search';
+import { Arrow } from '../components/bits';
+
+const catalog = songs
+  .filter((s) => appearances.has(s.songId))
+  .sort((a, b) => a.title.localeCompare(b.title, 'en', { numeric: true }));
+
+export default function Finder() {
+  const { query, songId, set, go } = useApp();
+  const input = useRef<HTMLInputElement>(null);
+  const hits = useMemo(() => searchSongs(query), [query]);
+  const song = songId ? songById.get(songId) ?? null : null;
+
+  useEffect(() => {
+    if (!songId && matchMedia('(pointer: fine)').matches) input.current?.focus();
+  }, [songId]);
+
+  const list = query.trim() ? hits.map((h) => h.song) : catalog;
+  const groups = useMemo(() => {
+    if (query.trim()) return [{ k: 'RESULTS', items: list }];
+    const g = new Map<string, typeof list>();
+    for (const s of list) {
+      const k = /[a-z]/i.test(s.title[0]) ? s.title[0].toUpperCase() : '#';
+      g.set(k, [...(g.get(k) ?? []), s]);
+    }
+    return [...g.entries()].map(([k, items]) => ({ k, items }));
+  }, [list, query]);
+
+  return (
+    <section className={`finder ${song ? 'has-song' : ''}`}>
+      <div className="finder__search">
+        <label className="finder__label" htmlFor="q">
+          SONG FINDER<span>英文 / 한국어 / 中文译名 / 别名 · 输入即查</span>
+        </label>
+        <div className="finder__field">
+          <input
+            id="q"
+            ref={input}
+            value={query}
+            onChange={(e) => set({ query: e.target.value, songId: null })}
+            placeholder="例如：Spring Day、봄날、春日"
+            autoComplete="off"
+            spellCheck={false}
+            enterKeyHint="search"
+          />
+          {query && <button className="sq" onClick={() => { set({ query: '', songId: null }); input.current?.focus(); }} aria-label="清空">×</button>}
+        </div>
+        <div className="finder__count mono">
+          {query.trim() ? `${hits.length} 个匹配` : `已记录 ${catalog.length} 首随机曲目 · A–Z`}
+        </div>
+
+        <div className="results">
+          {query.trim() && hits.length === 0 && (
+            <div className="none">
+              <b>当前已核实记录中尚未找到这首歌。</b>
+              <p>这不代表它从未在本巡演中被演唱 —— 可能是名称写法未收录，或相关场次尚未核实录入。可以试试英文原名、韩文名或去掉标点。</p>
+            </div>
+          )}
+          {groups.map((g) => (
+            <div key={g.k} className="results__group">
+              {!query.trim() && <div className="results__k">{g.k}</div>}
+              {g.items.map((s) => {
+                const n = appearances.get(s.songId)?.length ?? 0;
+                return (
+                  <button key={s.songId} className={`res ${songId === s.songId ? 'is-on' : ''}`} onClick={() => set({ songId: s.songId })}>
+                    <span className="res__t">{s.title}{s.titleKo && <i>{s.titleKo}</i>}</span>
+                    {s.kind === 'setlist' && n === 0 ? <span className="res__fixed">固定曲目</span> : <span className={`res__n ${n ? '' : 'is-zero'}`}><i className="x">×</i>{n}</span>}
+                  </button>
+                );
+              })}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="finder__detail">
+        {song ? <Detail songId={song.songId} onBack={() => set({ songId: null })} go={go} /> : (
+          <div className="finder__idle">
+            <div className="finder__idle-big">?</div>
+            <p>选择左侧一首歌，或直接输入歌名。<br />结果只统计 <b>VERIFIED</b> 场次中作为 Surprise Song 的演出。</p>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
+function Detail({ songId, onBack, go }: { songId: string; onBack: () => void; go: ReturnType<typeof useApp>['go'] }) {
+  const song = songById.get(songId)!;
+  const apps = appearances.get(songId) ?? [];
+  return (
+    <div className="detail">
+      <button className="detail__back link" onClick={onBack}>← 返回列表</button>
+      <div className="kicker">{song.album ?? '—'}{song.year ? ` · ${song.year}` : ''}</div>
+      <h2 className="detail__title">{song.title}</h2>
+      {(song.titleKo || song.aliases.length > 0) && (
+        <div className="detail__alt">
+          {song.titleKo && <span className="ko">{song.titleKo}</span>}
+          {song.aliases.filter((a) => /[一-鿿]/.test(a)).slice(0, 3).map((a) => <span key={a}>{a}</span>)}
+        </div>
+      )}
+
+      {song.kind === 'setlist' && apps.length === 0 ? (
+        <div className="detail__fixed">
+          <b>ARIRANG 巡演固定曲目</b>
+          <p>本曲属于巡演常规歌单（参考框架见场次档案中的完整 Setlist），不在随机曲目统计范围内。</p>
+        </div>
+      ) : (
+        <>
+          <div className="detail__count">
+            <b>{apps.length}</b>
+            <span>次作为 Surprise Song<br />出现在已核实场次中</span>
+          </div>
+          <ol className="detail__list">
+            {apps.map((a, i) => (
+              <li key={a.show.showId}>
+                <button onClick={() => go('archive', { showId: a.show.showId })}>
+                  <span className="dl__i">{pad(i + 1, 2)}</span>
+                  <span className="dl__date mono">{fmtDate(a.show.date)}<em>{weekday(a.show.date)}</em></span>
+                  <span className="dl__city">{a.show.cityZh}<em>{a.show.countryZh} · {a.show.city}</em></span>
+                  <span className="dl__venue">{a.show.venue}<em>{dayLabel(a.show)} · TRACK {String(a.entry.slot).padStart(2, '0')}{FORM_LABEL[a.entry.form] ? ' · ' + FORM_LABEL[a.entry.form] : ''}</em></span>
+                  <Arrow />
+                </button>
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
+    </div>
+  );
+}

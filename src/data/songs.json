@@ -1,0 +1,905 @@
+[
+  {
+    "songId": "hooligan",
+    "title": "Hooligan",
+    "titleKo": null,
+    "aliases": [],
+    "album": "ARIRANG",
+    "year": 2026,
+    "kind": "setlist"
+  },
+  {
+    "songId": "aliens",
+    "title": "Aliens",
+    "titleKo": null,
+    "aliases": [],
+    "album": "ARIRANG",
+    "year": 2026,
+    "kind": "setlist"
+  },
+  {
+    "songId": "run-bts",
+    "title": "Run BTS",
+    "titleKo": "달려라 방탄",
+    "aliases": [
+      "달려라방탄",
+      "奔跑吧防弹"
+    ],
+    "album": "Proof",
+    "year": 2022,
+    "kind": "setlist"
+  },
+  {
+    "songId": "they-dont-know-bout-us",
+    "title": "they don't know 'bout us",
+    "titleKo": null,
+    "aliases": [
+      "tdkbu"
+    ],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "like-animals",
+    "title": "Like Animals",
+    "titleKo": null,
+    "aliases": [],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "fake-love",
+    "title": "FAKE LOVE",
+    "titleKo": null,
+    "aliases": [
+      "假爱"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "setlist"
+  },
+  {
+    "songId": "swim",
+    "title": "SWIM",
+    "titleKo": null,
+    "aliases": [
+      "游泳"
+    ],
+    "album": "ARIRANG",
+    "year": 2026,
+    "kind": "setlist"
+  },
+  {
+    "songId": "merry-go-round",
+    "title": "Merry Go Round",
+    "titleKo": null,
+    "aliases": [
+      "旋转木马"
+    ],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "two-point-zero",
+    "title": "2.0",
+    "titleKo": null,
+    "aliases": [
+      "2.0"
+    ],
+    "album": "ARIRANG",
+    "year": 2026,
+    "kind": "setlist"
+  },
+  {
+    "songId": "normal",
+    "title": "NORMAL",
+    "titleKo": null,
+    "aliases": [],
+    "album": "ARIRANG",
+    "year": 2026,
+    "kind": "setlist"
+  },
+  {
+    "songId": "not-today",
+    "title": "Not Today",
+    "titleKo": null,
+    "aliases": [],
+    "album": "YOU NEVER WALK ALONE",
+    "year": 2017,
+    "kind": "setlist"
+  },
+  {
+    "songId": "mic-drop",
+    "title": "MIC Drop",
+    "titleKo": null,
+    "aliases": [
+      "micdrop"
+    ],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "setlist"
+  },
+  {
+    "songId": "fya",
+    "title": "FYA",
+    "titleKo": null,
+    "aliases": [],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "fire",
+    "title": "Fire",
+    "titleKo": "불타오르네",
+    "aliases": [
+      "火",
+      "火焰"
+    ],
+    "album": "The Most Beautiful Moment in Life: Young Forever",
+    "year": 2016,
+    "kind": "setlist"
+  },
+  {
+    "songId": "body-to-body",
+    "title": "Body to Body",
+    "titleKo": null,
+    "aliases": [],
+    "album": "ARIRANG",
+    "year": 2026,
+    "kind": "setlist"
+  },
+  {
+    "songId": "idol",
+    "title": "IDOL",
+    "titleKo": null,
+    "aliases": [
+      "偶像"
+    ],
+    "album": "LOVE YOURSELF 結 'Answer'",
+    "year": 2018,
+    "kind": "setlist"
+  },
+  {
+    "songId": "come-over",
+    "title": "Come Over",
+    "titleKo": null,
+    "aliases": [],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "butter",
+    "title": "Butter",
+    "titleKo": null,
+    "aliases": [
+      "黄油"
+    ],
+    "album": "Butter (Single)",
+    "year": 2021,
+    "kind": "setlist"
+  },
+  {
+    "songId": "dynamite",
+    "title": "Dynamite",
+    "titleKo": null,
+    "aliases": [
+      "炸药"
+    ],
+    "album": "BE",
+    "year": 2020,
+    "kind": "setlist"
+  },
+  {
+    "songId": "please",
+    "title": "Please",
+    "titleKo": null,
+    "aliases": [],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "into-the-sun",
+    "title": "Into the Sun",
+    "titleKo": null,
+    "aliases": [],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "one-more-night",
+    "title": "One More Night",
+    "titleKo": null,
+    "aliases": [],
+    "album": null,
+    "year": null,
+    "kind": "setlist"
+  },
+  {
+    "songId": "mikrokosmos",
+    "title": "Mikrokosmos",
+    "titleKo": "소우주",
+    "aliases": [
+      "小宇宙"
+    ],
+    "album": "MAP OF THE SOUL : PERSONA",
+    "year": 2019,
+    "kind": "catalog"
+  },
+  {
+    "songId": "i-need-u",
+    "title": "I NEED U",
+    "titleKo": null,
+    "aliases": [
+      "ineedu",
+      "我需要你"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "take-two",
+    "title": "Take Two",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Take Two (Single)",
+    "year": 2023,
+    "kind": "catalog"
+  },
+  {
+    "songId": "dna",
+    "title": "DNA",
+    "titleKo": null,
+    "aliases": [],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog"
+  },
+  {
+    "songId": "spring-day",
+    "title": "Spring Day",
+    "titleKo": "봄날",
+    "aliases": [
+      "春日",
+      "春天"
+    ],
+    "album": "YOU NEVER WALK ALONE",
+    "year": 2017,
+    "kind": "catalog"
+  },
+  {
+    "songId": "run",
+    "title": "RUN",
+    "titleKo": null,
+    "aliases": [
+      "奔跑"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "save-me",
+    "title": "Save ME",
+    "titleKo": null,
+    "aliases": [
+      "救救我"
+    ],
+    "album": "The Most Beautiful Moment in Life: Young Forever",
+    "year": 2016,
+    "kind": "catalog"
+  },
+  {
+    "songId": "crystal-snow",
+    "title": "Crystal Snow",
+    "titleKo": null,
+    "aliases": [
+      "水晶雪"
+    ],
+    "album": "FACE YOURSELF",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "dope",
+    "title": "Dope",
+    "titleKo": "쩔어",
+    "aliases": [
+      "炸裂",
+      "超赞"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "for-you",
+    "title": "For You",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Youth",
+    "year": 2016,
+    "kind": "catalog"
+  },
+  {
+    "songId": "permission-to-dance",
+    "title": "Permission to Dance",
+    "titleKo": null,
+    "aliases": [
+      "ptd",
+      "允许跳舞"
+    ],
+    "album": "Butter (Single)",
+    "year": 2021,
+    "kind": "catalog"
+  },
+  {
+    "songId": "magic-shop",
+    "title": "Magic Shop",
+    "titleKo": null,
+    "aliases": [
+      "魔法商店"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "boy-with-luv",
+    "title": "Boy With Luv",
+    "titleKo": "작은 것들을 위한 시",
+    "aliases": [
+      "致微小事物之诗",
+      "小诗",
+      "bwl"
+    ],
+    "album": "MAP OF THE SOUL : PERSONA",
+    "year": 2019,
+    "kind": "catalog"
+  },
+  {
+    "songId": "pied-piper",
+    "title": "Pied Piper",
+    "titleKo": null,
+    "aliases": [
+      "花衣魔笛手",
+      "魔笛手"
+    ],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog"
+  },
+  {
+    "songId": "life-goes-on",
+    "title": "Life Goes On",
+    "titleKo": null,
+    "aliases": [
+      "生活还要继续"
+    ],
+    "album": "BE",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "silver-spoon",
+    "title": "Silver Spoon",
+    "titleKo": "뱁새",
+    "aliases": [
+      "Baepsae",
+      "鸦雀",
+      "银汤匙"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "on",
+    "title": "ON",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "outro-wings",
+    "title": "Outro: Wings",
+    "titleKo": null,
+    "aliases": [
+      "翅膀",
+      "outro wings"
+    ],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog"
+  },
+  {
+    "songId": "dionysus",
+    "title": "Dionysus",
+    "titleKo": null,
+    "aliases": [
+      "酒神"
+    ],
+    "album": "MAP OF THE SOUL : PERSONA",
+    "year": 2019,
+    "kind": "catalog"
+  },
+  {
+    "songId": "best-of-me",
+    "title": "Best Of Me",
+    "titleKo": null,
+    "aliases": [
+      "最好的我"
+    ],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog"
+  },
+  {
+    "songId": "boy-in-luv",
+    "title": "Boy In Luv",
+    "titleKo": "상남자",
+    "aliases": [
+      "男子汉",
+      "上男子"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "so-what",
+    "title": "So What",
+    "titleKo": null,
+    "aliases": [],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "we-are-bulletproof-pt2",
+    "title": "We Are Bulletproof Pt.2",
+    "titleKo": null,
+    "aliases": [
+      "防弹 pt.2",
+      "wab pt2",
+      "we are bulletproof pt 2"
+    ],
+    "album": "2 Cool 4 Skool",
+    "year": 2013,
+    "kind": "catalog"
+  },
+  {
+    "songId": "just-one-day",
+    "title": "Just One Day",
+    "titleKo": "하루만",
+    "aliases": [
+      "只要一天",
+      "一天就好"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "airplane-pt2",
+    "title": "Airplane pt.2",
+    "titleKo": null,
+    "aliases": [
+      "飞机 pt.2",
+      "airplane pt 2"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "no",
+    "title": "N.O",
+    "titleKo": null,
+    "aliases": [
+      "no"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog"
+  },
+  {
+    "songId": "anpanman",
+    "title": "Anpanman",
+    "titleKo": null,
+    "aliases": [
+      "面包超人"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "blood-sweat-tears",
+    "title": "Blood Sweat & Tears",
+    "titleKo": "피 땀 눈물",
+    "aliases": [
+      "血汗泪",
+      "bst"
+    ],
+    "album": "WINGS",
+    "year": 2016,
+    "kind": "catalog"
+  },
+  {
+    "songId": "no-more-dream",
+    "title": "No More Dream",
+    "titleKo": null,
+    "aliases": [
+      "不再做梦"
+    ],
+    "album": "2 Cool 4 Skool",
+    "year": 2013,
+    "kind": "catalog"
+  },
+  {
+    "songId": "go-go",
+    "title": "Go Go",
+    "titleKo": "고민보다 Go",
+    "aliases": [
+      "比起烦恼更要go",
+      "gogo"
+    ],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog"
+  },
+  {
+    "songId": "black-swan",
+    "title": "Black Swan",
+    "titleKo": null,
+    "aliases": [
+      "黑天鹅"
+    ],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "spine-breaker",
+    "title": "Spine Breaker",
+    "titleKo": "등골브레이커",
+    "aliases": [
+      "脊梁骨破坏者"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "attack-on-bangtan",
+    "title": "Attack on Bangtan",
+    "titleKo": "진격의 방탄",
+    "aliases": [
+      "进击的防弹"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog"
+  },
+  {
+    "songId": "danger",
+    "title": "Danger",
+    "titleKo": null,
+    "aliases": [
+      "危险"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "boyz-with-fun",
+    "title": "Boyz with Fun",
+    "titleKo": "흥탄소년단",
+    "aliases": [
+      "兴弹少年团"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.1",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "paldogangsan",
+    "title": "Paldogangsan",
+    "titleKo": "팔도강산",
+    "aliases": [
+      "八道江山"
+    ],
+    "album": "O!RUL8,2?",
+    "year": 2013,
+    "kind": "catalog"
+  },
+  {
+    "songId": "ma-city",
+    "title": "Ma City",
+    "titleKo": null,
+    "aliases": [],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "dimple",
+    "title": "Dimple",
+    "titleKo": "보조개",
+    "aliases": [
+      "酒窝",
+      "illegal"
+    ],
+    "album": "LOVE YOURSELF 承 'Her'",
+    "year": 2017,
+    "kind": "catalog"
+  },
+  {
+    "songId": "ddaeng",
+    "title": "Ddaeng",
+    "titleKo": "땡",
+    "aliases": [],
+    "album": "BTS FESTA（非专辑曲）",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "tomorrow",
+    "title": "Tomorrow",
+    "titleKo": null,
+    "aliases": [
+      "明天"
+    ],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "for-youth",
+    "title": "For Youth",
+    "titleKo": null,
+    "aliases": [
+      "致青春"
+    ],
+    "album": "Proof",
+    "year": 2022,
+    "kind": "catalog"
+  },
+  {
+    "songId": "epilogue-young-forever",
+    "title": "Epilogue: Young Forever",
+    "titleKo": null,
+    "aliases": [
+      "young forever",
+      "永远年轻"
+    ],
+    "album": "The Most Beautiful Moment in Life: Young Forever",
+    "year": 2016,
+    "kind": "catalog"
+  },
+  {
+    "songId": "louder-than-bombs",
+    "title": "Louder than bombs",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "jump",
+    "title": "Jump",
+    "titleKo": null,
+    "aliases": [],
+    "album": "Skool Luv Affair",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "wab-the-eternal",
+    "title": "We are Bulletproof : the Eternal",
+    "titleKo": null,
+    "aliases": [
+      "the eternal",
+      "防弹 永恒",
+      "wab eternal"
+    ],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "dis-ease",
+    "title": "Dis-ease",
+    "titleKo": "병",
+    "aliases": [
+      "病"
+    ],
+    "album": "BE",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "autumn-leaves",
+    "title": "Autumn Leaves",
+    "titleKo": "고엽",
+    "aliases": [
+      "枯叶"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "paradise",
+    "title": "Paradise",
+    "titleKo": "낙원",
+    "aliases": [
+      "乐园"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "make-it-right",
+    "title": "Make It Right",
+    "titleKo": null,
+    "aliases": [],
+    "album": "MAP OF THE SOUL : PERSONA",
+    "year": 2019,
+    "kind": "catalog"
+  },
+  {
+    "songId": "telepathy",
+    "title": "Telepathy",
+    "titleKo": "잠시",
+    "aliases": [
+      "暂时",
+      "以心传心"
+    ],
+    "album": "BE",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "butterfly",
+    "title": "Butterfly",
+    "titleKo": null,
+    "aliases": [
+      "蝴蝶"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "zero-oclock",
+    "title": "00:00 (Zero O'Clock)",
+    "titleKo": null,
+    "aliases": [
+      "零点",
+      "zero o clock",
+      "00:00"
+    ],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog"
+  },
+  {
+    "songId": "outro-tear",
+    "title": "Outro: Tear",
+    "titleKo": null,
+    "aliases": [
+      "眼泪",
+      "outro tear"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "hip-hop-phile",
+    "title": "Hip Hop Phile",
+    "titleKo": "힙합성애자",
+    "aliases": [
+      "嘻哈爱好者"
+    ],
+    "album": "DARK&WILD",
+    "year": 2014,
+    "kind": "catalog"
+  },
+  {
+    "songId": "134340",
+    "title": "134340",
+    "titleKo": null,
+    "aliases": [
+      "冥王星"
+    ],
+    "album": "LOVE YOURSELF 轉 'Tear'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "love-maze",
+    "title": "Love Maze",
+    "titleKo": null,
+    "aliases": [
+      "爱情迷宫"
+    ],
+    "album": "LOVE YOURSELF 結 'Answer'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "home",
+    "title": "HOME",
+    "titleKo": null,
+    "aliases": [
+      "家"
+    ],
+    "album": "MAP OF THE SOUL : PERSONA",
+    "year": 2019,
+    "kind": "catalog"
+  },
+  {
+    "songId": "whalien-52",
+    "title": "Whalien 52",
+    "titleKo": null,
+    "aliases": [
+      "52赫兹鲸",
+      "鲸"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "im-fine",
+    "title": "I'm Fine",
+    "titleKo": null,
+    "aliases": [
+      "我很好",
+      "im fine"
+    ],
+    "album": "LOVE YOURSELF 結 'Answer'",
+    "year": 2018,
+    "kind": "catalog"
+  },
+  {
+    "songId": "house-of-cards",
+    "title": "Outro: House of Cards",
+    "titleKo": null,
+    "aliases": [
+      "House of Cards",
+      "纸牌屋",
+      "outro house of cards"
+    ],
+    "album": "The Most Beautiful Moment in Life, Pt.2",
+    "year": 2015,
+    "kind": "catalog"
+  },
+  {
+    "songId": "ugh",
+    "title": "UGH!",
+    "titleKo": "욱",
+    "aliases": [
+      "ugh",
+      "愤怒"
+    ],
+    "album": "MAP OF THE SOUL : 7",
+    "year": 2020,
+    "kind": "catalog"
+  }
+]
