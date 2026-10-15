@@ -42,7 +42,7 @@ export default function App() {
         </nav>
         <LangSwitch />
         <div className="top__meta">
-          <span className="top__credit">made by 霹雳小猫</span>
+          <span className="top__credit">{t('made by 霹雳小猫', 'made by Pilicat.')}</span>
           <span className="top__date">DATA {tour.dataUpdatedAt.replace(/-/g, '.')}</span>
           <span>
             {stats.verified}/{stats.total} VERIFIED
