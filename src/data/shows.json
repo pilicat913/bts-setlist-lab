@@ -2364,25 +2364,36 @@
       "countryCode": "CL",
       "region": "latin-america",
       "venue": "Estadio Nacional Julio Martínez Prádanos",
-      "status": "PENDING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "run",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "save-me",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
       "notes": [
-        "待核实：目前只有 dsn.pe 一家媒体报道本场随机曲目为 RUN、Save ME（该文称顺序仍在核实）；La Tercera 确认有随机曲目环节但未写歌名；Wikipedia、KPopGo、The Honey Pop 截至 2026-10-15 尚未更新本场。需第二个独立来源后再改为 VERIFIED。"
+        "随机曲目以 dsn.pe 报道与站长校对版为准（两者一致）；dsn.pe 注明顺序仍在核实，TRACK 01 / 02 顺序以站长校对版为准。截至 2026-10-15，Wikipedia、KPopGo 尚未收录本场。"
       ],
       "sources": [
-        "wiki",
-        "livenation",
         "dsn-santiago-d1",
-        "latercera-santiago-d1"
+        "user-notes",
+        "latercera-santiago-d1",
+        "livenation"
       ],
       "lastVerifiedAt": "2026-10-15",
       "moments": [
         "现场为 Jimin 庆生 · Happy Jimin's Birthday"
       ],
       "notesEn": [
-        "Pending: so far only dsn.pe reports the surprise songs as RUN and Save ME (order still being verified per the article); La Tercera confirms a surprise-song block but does not name the songs; Wikipedia, KPopGo and The Honey Pop had not covered this show as of 2026-10-15. Needs a second independent source before VERIFIED."
+        "Surprise songs per dsn.pe and the editor's own notes (both agree); dsn.pe says the order was still being verified, so TRACK 01 / 02 order follows the editor's notes. Wikipedia and KPopGo had not covered this show as of 2026-10-15."
       ]
     },
     {
