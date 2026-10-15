@@ -2364,17 +2364,26 @@
       "countryCode": "CL",
       "region": "latin-america",
       "venue": "Estadio Nacional Julio Martínez Prádanos",
-      "status": "UPCOMING",
+      "status": "PENDING",
       "surpriseSongs": [],
       "fullSetlist": null,
       "setlistChanges": [],
-      "notes": [],
+      "notes": [
+        "待核实：目前只有 dsn.pe 一家媒体报道本场随机曲目为 RUN、Save ME（该文称顺序仍在核实）；La Tercera 确认有随机曲目环节但未写歌名；Wikipedia、KPopGo、The Honey Pop 截至 2026-10-15 尚未更新本场。需第二个独立来源后再改为 VERIFIED。"
+      ],
       "sources": [
         "wiki",
-        "livenation"
+        "livenation",
+        "dsn-santiago-d1",
+        "latercera-santiago-d1"
       ],
       "lastVerifiedAt": "2026-10-15",
-      "moments": []
+      "moments": [
+        "现场为 Jimin 庆生 · Happy Jimin's Birthday"
+      ],
+      "notesEn": [
+        "Pending: so far only dsn.pe reports the surprise songs as RUN and Save ME (order still being verified per the article); La Tercera confirms a surprise-song block but does not name the songs; Wikipedia, KPopGo and The Honey Pop had not covered this show as of 2026-10-15. Needs a second independent source before VERIFIED."
+      ]
     },
     {
       "showId": "arirang-2026-10-16-santiago",

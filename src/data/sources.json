@@ -82,5 +82,17 @@
     "url": "",
     "type": "editor",
     "accessedAt": "2026-10-15"
+  },
+  "dsn-santiago-d1": {
+    "label": "DSN · BTS en Chile 14 de octubre: así fue su primer concierto",
+    "url": "https://dsn.pe/bts-en-chile-14-de-octubre-asi-fue-su-primer-concierto-el-setlist-completo-y-los-momentos-que-emocionaron-a-army/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
+  },
+  "latercera-santiago-d1": {
+    "label": "La Tercera · BTS en el Estadio Nacional",
+    "url": "https://www.latercera.com/culto/noticia/bts-en-el-estadio-nacional-las-estrellas-del-k-pop-brillan-en-una-noche-impactante/",
+    "type": "media",
+    "accessedAt": "2026-10-15"
   }
 }
