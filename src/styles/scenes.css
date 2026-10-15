@@ -452,3 +452,35 @@
   .top__credit { font-size: 10px; }
   .home__credit { display: none; }
 }
+
+/* ---------------------------------------------------------- 中 / EN */
+.top { grid-template-columns: auto 1fr auto auto; }
+.langsw { display: flex; align-self: center; border: 1.5px solid var(--ink); }
+.langsw button { padding: 3px 9px; font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.06em; line-height: 1.4; }
+.langsw button + button { border-left: 1.5px solid var(--ink); }
+.langsw button.is-on { background: var(--ink); color: var(--paper); }
+.langsw button:not(.is-on):hover { color: var(--red); }
+
+[data-lang='en'] .sheet__city { font-family: var(--f-display); font-weight: 400; letter-spacing: 0; text-transform: uppercase; line-height: 0.88; font-size: clamp(56px, min(8.6vw, 15vh), 150px); }
+[data-lang='en'] .sheet__cityen { margin-top: 8px; }
+[data-lang='en'] .sheet__cityen > span:last-child { font-family: var(--f-mono); font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; }
+[data-lang='en'] .latest__city { font-family: var(--f-display); font-weight: 400; letter-spacing: 0; text-transform: uppercase; }
+[data-lang='en'] .cityrow__cn { font-family: var(--f-display); font-weight: 400; }
+[data-lang='en'] .cityrow__cn em { font-family: var(--f-mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; }
+[data-lang='en'] .mchip { font-family: var(--f-display); font-weight: 400; font-size: 17px; }
+[data-lang='en'] .dl__city { font-family: var(--f-display); font-weight: 400; font-size: 22px; }
+[data-lang='en'] .mx__col span { text-orientation: mixed; transform: rotate(180deg); font-family: var(--f-mono); font-size: 9px; letter-spacing: 0.02em; }
+[data-lang='en'] .mx__col { height: 56px; }
+[data-lang='en'] .timeline__label { font-family: var(--f-mono); font-size: 9px; }
+[data-lang='en'] .ticket__h { font-family: var(--f-display); font-weight: 400; letter-spacing: 0; text-transform: uppercase; font-size: 40px; line-height: 0.95; }
+[data-lang='en'] .dock__zh { font-size: 13px; }
+
+@media (max-width: 899px) {
+  .top { grid-template-columns: 1fr auto auto; gap: 12px; }
+  .langsw button { padding: 2px 7px; font-size: 10px; }
+  [data-lang='en'] .sheet__city { font-size: clamp(48px, 15vw, 90px); }
+}
+@media (max-width: 899px) {
+  .home { grid-template-columns: minmax(0, 1fr); }
+  .home__title, .home__art { min-width: 0; }
+}

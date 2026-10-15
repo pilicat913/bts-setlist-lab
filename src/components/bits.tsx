@@ -1,15 +1,18 @@
 import type { ReactNode } from 'react';
-import { STATUS_LABEL, type Status } from '../lib/data';
+import type { Status } from '../lib/data';
+import { statusLabel } from '../lib/i18n';
+import { useApp } from '../lib/state';
 
 /** 状态印记：实心红方 = 已核实；斜线 = 待核实；空框 = 未演出 */
 export function StatusMark({ status, label = false }: { status: Status; label?: boolean }) {
+  const { lang } = useApp();
   return (
-    <span className={`status status--${status.toLowerCase()}`} title={`${status} · ${STATUS_LABEL[status]}`}>
+    <span className={`status status--${status.toLowerCase()}`} title={`${status} · ${statusLabel(status, lang)}`}>
       <i aria-hidden />
       {label && (
         <b>
           {status}
-          <em>{STATUS_LABEL[status]}</em>
+          {lang === 'zh' && <em>{statusLabel(status, lang)}</em>}
         </b>
       )}
     </span>

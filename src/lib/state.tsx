@@ -1,13 +1,14 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { latestVerified, showById, shows, songById } from './data';
+import { makeT, type Lang } from './i18n';
 
 export type Scene = 'home' | 'archive' | 'lab' | 'finder' | 'ticket';
-export const SCENES: { id: Scene; no: string; en: string; zh: string }[] = [
-  { id: 'home', no: '01', en: 'HOME', zh: '首页' },
-  { id: 'archive', no: '02', en: 'SHOW ARCHIVE', zh: '场次' },
-  { id: 'lab', no: '03', en: 'DATA LAB', zh: '数据' },
-  { id: 'finder', no: '04', en: 'SONG FINDER', zh: '反查' },
-  { id: 'ticket', no: '05', en: 'MY TICKET', zh: '票根' },
+export const SCENES: { id: Scene; no: string; en: string; zh: string; short: string }[] = [
+  { id: 'home', no: '01', en: 'HOME', zh: '首页', short: 'Home' },
+  { id: 'archive', no: '02', en: 'SHOW ARCHIVE', zh: '场次', short: 'Shows' },
+  { id: 'lab', no: '03', en: 'DATA LAB', zh: '数据', short: 'Data' },
+  { id: 'finder', no: '04', en: 'SONG FINDER', zh: '反查', short: 'Songs' },
+  { id: 'ticket', no: '05', en: 'MY TICKET', zh: '票根', short: 'Ticket' },
 ];
 
 interface AppState {
@@ -16,11 +17,13 @@ interface AppState {
   songId: string | null;
   query: string;
   ticketShowId: string | null;
+  lang: Lang;
 }
 
 interface Ctx extends AppState {
   go: (scene: Scene, patch?: Partial<Omit<AppState, 'scene'>>) => void;
   set: (patch: Partial<AppState>) => void;
+  t: (zh: string, en: string) => string;
 }
 
 const AppCtx = createContext<Ctx | null>(null);
@@ -38,6 +41,8 @@ function readHash(): Partial<AppState> {
   if (show && showById.has(show)) out.showId = show;
   const song = p.get('song');
   if (song && songById.has(song)) out.songId = song;
+  const lang = p.get('lang');
+  if (lang === 'en' || lang === 'zh') out.lang = lang;
   return out;
 }
 
@@ -54,6 +59,7 @@ function initial(): AppState {
     songId: null,
     query: '',
     ticketShowId: null,
+    lang: navigator.language?.toLowerCase().startsWith('zh') ? 'zh' : 'en',
   };
   if (saved.showId && !showById.has(saved.showId)) delete saved.showId;
   if (saved.songId && !songById.has(saved.songId)) delete saved.songId;
@@ -65,6 +71,7 @@ function toHash(s: AppState) {
   const p = new URLSearchParams();
   if (s.scene === 'archive' || s.scene === 'ticket') p.set('show', s.scene === 'ticket' && s.ticketShowId ? s.ticketShowId : s.showId);
   if ((s.scene === 'finder' || s.scene === 'lab') && s.songId) p.set('song', s.songId);
+  if (s.lang === 'en') p.set('lang', 'en');
   const q = p.toString();
   return `#/${s.scene}${q ? '?' + q : ''}`;
 }
@@ -95,7 +102,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, []);
   const set = useCallback<Ctx['set']>((patch) => setState((s) => ({ ...s, ...patch })), []);
 
-  const value = useMemo(() => ({ ...state, go, set }), [state, go, set]);
+  useEffect(() => {
+    document.documentElement.lang = state.lang === 'en' ? 'en' : 'zh-CN';
+    document.documentElement.dataset.lang = state.lang;
+  }, [state.lang]);
+
+  const value = useMemo(() => ({ ...state, go, set, t: makeT(state.lang) }), [state, go, set]);
   return <AppCtx.Provider value={value}>{children}</AppCtx.Provider>;
 }
 

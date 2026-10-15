@@ -1,11 +1,12 @@
 import { useApp } from '../lib/state';
 import {
-  appearances, cities, dayLabel, fmtDate, latestVerified, nextUpcoming, pad, shortZh, songById, stats, tour, weekday,
+  appearances, cities, dayLabel, fmtDate, latestVerified, nextUpcoming, pad, songById, stats, tour, weekday,
 } from '../lib/data';
+import { cityName, countryName, shortName } from '../lib/i18n';
 import { Arrow, StatusMark } from '../components/bits';
 
 export default function Home() {
-  const { go } = useApp();
+  const { go, lang, t } = useApp();
   const latest = latestVerified;
 
   return (
@@ -26,15 +27,17 @@ export default function Home() {
         </h1>
         <p className="home__sub">
           <span className="home__sub-en">ARIRANG TOUR — SURPRISE SONG ARCHIVE</span>
-          <span className="home__sub-zh">ARIRANG 世界巡演 · 每场两首随机曲目的逐场档案</span>
+          <span className="home__sub-zh">
+            {t('ARIRANG 世界巡演 · 每场两首随机曲目的逐场档案', 'Every surprise song from every night of the ARIRANG world tour')}
+          </span>
         </p>
         <div className="home__cta">
           <button className="btn btn--black btn--xl" onClick={() => go('archive')}>
-            <span>探索场次</span>
+            <span>{t('探索场次', 'Explore the shows')}</span>
             <Arrow />
           </button>
           <button className="btn btn--line" onClick={() => go('finder')}>
-            查一首歌 <Arrow />
+            {t('查一首歌', 'Look up a song')} <Arrow />
           </button>
         </div>
       </div>
@@ -64,10 +67,10 @@ export default function Home() {
               <span>LATEST VERIFIED</span>
               <span>№{pad(latest.seq)}</span>
             </div>
-            <div className="latest__city">{latest.cityZh}</div>
-            <div className="latest__en">{latest.city.toUpperCase()} · {latest.country.toUpperCase()}</div>
+            <div className="latest__city">{cityName(latest, lang)}</div>
+            {lang === 'zh' && <div className="latest__en">{latest.city.toUpperCase()} · {latest.country.toUpperCase()}</div>}
             <div className="latest__meta">
-              {latest.countryZh} · {dayLabel(latest)} · {fmtDate(latest.date)} {weekday(latest.date)}
+              {countryName(latest, lang)} · {dayLabel(latest)} · {fmtDate(latest.date)} {weekday(latest.date)}
               <br />
               {latest.venue}
             </div>
@@ -79,13 +82,13 @@ export default function Home() {
                   <li key={e.songId}>
                     <span className="latest__no">TRACK {String(e.slot).padStart(2, '0')}</span>
                     <span className="latest__song">{song.title}</span>
-                    <span className="latest__count">{n === 1 ? '巡演首唱' : `×${n}`}</span>
+                    <span className="latest__count">{n === 1 ? t('巡演首唱', 'Tour debut') : `×${n}`}</span>
                   </li>
                 );
               })}
             </ol>
             <div className="latest__foot">
-              打开场次档案 <Arrow />
+              {t('打开场次档案', 'Open this show')} <Arrow />
             </div>
           </button>
         )}
@@ -96,12 +99,12 @@ export default function Home() {
           <span className="timeline__count">
             <b>{stats.verified}</b> / {stats.total}
           </span>
-          <span><StatusMark status="VERIFIED" /> 已核实</span>
-          {stats.pending > 0 && <span><StatusMark status="PENDING" /> 待核实</span>}
-          <span><StatusMark status="UPCOMING" /> 未演出</span>
+          <span><StatusMark status="VERIFIED" /> {t('已核实', 'Verified')}</span>
+          {stats.pending > 0 && <span><StatusMark status="PENDING" /> {t('待核实', 'Pending')}</span>}
+          <span><StatusMark status="UPCOMING" /> {t('未演出', 'Upcoming')}</span>
           {nextUpcoming && (
             <span className="timeline__next">
-              下一场 · {nextUpcoming.cityZh} {fmtDate(nextUpcoming.date)}
+              {t('下一场', 'NEXT')} · {cityName(nextUpcoming, lang)} {fmtDate(nextUpcoming.date)}
             </span>
           )}
         </div>
@@ -113,13 +116,13 @@ export default function Home() {
                   <button
                     key={s.showId}
                     className={`tick tick--${s.status.toLowerCase()}`}
-                    title={`№${pad(s.seq)} ${s.cityZh} ${fmtDate(s.date)} · ${s.status}`}
-                    aria-label={`${s.cityZh} ${fmtDate(s.date)}`}
+                    title={`№${pad(s.seq)} ${cityName(s, lang)} ${fmtDate(s.date)} · ${s.status}`}
+                    aria-label={`${cityName(s, lang)} ${fmtDate(s.date)}`}
                     onClick={() => go('archive', { showId: s.showId })}
                   />
                 ))}
               </div>
-              <span className="timeline__label" title={`${c.cityZh} ${c.city}`}>{shortZh(c)}</span>
+              <span className="timeline__label" title={`${c.cityZh} ${c.city}`}>{shortName(c, lang)}</span>
             </div>
           ))}
         </div>

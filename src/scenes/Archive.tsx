@@ -1,15 +1,18 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { useApp } from '../lib/state';
 import {
-  appearances, cities, dayLabel, fmtDate, FORM_LABEL, pad, REGION_LABEL, showById, shows, songById,
-  sources, STATUS_LABEL, templateFor, tour, weekday, type Show,
+  appearances, cities, dayLabel, fmtDate, pad, showById, shows, songById,
+  sources, templateFor, tour, weekday, type Show,
 } from '../lib/data';
+import {
+  albumName, cityName, countryName, formLabel, momentText, regionLabel, showNotes, sourceLabel, statusLabel, text, type Lang,
+} from '../lib/i18n';
 import { Arrow, StatusMark, Swap } from '../components/bits';
 
 const REGIONS = ['all', ...new Set(cities.map((c) => c.region))];
 
 export default function Archive() {
-  const { showId, set, go } = useApp();
+  const { showId, set, go, lang, t } = useApp();
   const show = showById.get(showId) ?? shows[0];
   const [region, setRegion] = useState<string>('all');
   const [drawer, setDrawer] = useState(false);
@@ -63,10 +66,10 @@ export default function Archive() {
           <span>INDEX</span>
           <span>{cities.length} CITIES · {shows.length} SHOWS</span>
         </div>
-        <div className="chips" role="tablist" aria-label="按地区筛选">
+        <div className="chips" role="tablist" aria-label={t('按地区筛选', 'Filter by region')}>
           {REGIONS.map((r) => (
             <button key={r} role="tab" aria-selected={region === r} className={`chip ${region === r ? 'is-on' : ''}`} onClick={() => setRegion(r)}>
-              {r === 'all' ? '全部' : REGION_LABEL[r]}
+              {r === 'all' ? t('全部', 'All') : regionLabel(r, lang)}
             </button>
           ))}
         </div>
@@ -78,8 +81,8 @@ export default function Archive() {
               <div key={c.cityKey} data-city={c.cityKey} className={`cityrow ${on ? 'is-on' : ''}`}>
                 <button className="cityrow__name" onClick={() => pick(c.shows.find((s) => s.status === 'VERIFIED') ?? c.shows[0])}>
                   <span className="cityrow__no">{pad(cities.indexOf(c) + 1, 2)}</span>
-                  <span className="cityrow__cn">{c.cityZh}<em>{c.countryZh}</em></span>
-                  <span className="cityrow__sub">{c.city} · {c.country}</span>
+                  <span className="cityrow__cn">{cityName(c, lang)}<em>{countryName(c, lang)}</em></span>
+                  {lang === 'zh' && <span className="cityrow__sub">{c.city} · {c.country}</span>}
                 </button>
                 <div className="cityrow__days">
                   {c.shows.map((s) => (
@@ -102,7 +105,7 @@ export default function Archive() {
           {cities.map((c) => (
             <button key={c.cityKey} data-chip={c.cityKey} className={`mchip ${c.cityKey === show.cityKey ? 'is-on' : ''}`}
               onClick={() => pick(c.shows.find((s) => s.status === 'VERIFIED') ?? c.shows[0])}>
-              {c.cityZh}
+              {cityName(c, lang)}
             </button>
           ))}
         </div>
@@ -125,19 +128,19 @@ export default function Archive() {
           </span>
           <StatusMark status={show.status} label />
           <span className="sheet__nav">
-            <button className="sq" onClick={() => step(-1)} disabled={idx === 0} aria-label="上一场">←</button>
-            <button className="sq" onClick={() => step(1)} disabled={idx === shows.length - 1} aria-label="下一场">→</button>
+            <button className="sq" onClick={() => step(-1)} disabled={idx === 0} aria-label={t('上一场', 'Previous show')}>←</button>
+            <button className="sq" onClick={() => step(1)} disabled={idx === shows.length - 1} aria-label={t('下一场', 'Next show')}>→</button>
           </span>
         </div>
 
         <header className="sheet__head">
           <div className="sheet__titles">
             <h2 className="sheet__city">
-              <Swap value={show.cityKey}>{show.cityZh}</Swap>
+              <Swap value={show.cityKey + lang}>{cityName(show, lang)}</Swap>
             </h2>
             <div className="sheet__cityen">
-              <Swap value={show.cityKey + 'en'}>{show.city.toUpperCase()}</Swap>
-              <span>{show.countryZh}</span>
+              {lang === 'zh' && <Swap value={show.cityKey + 'en'}>{show.city.toUpperCase()}</Swap>}
+              <span>{countryName(show, lang)}</span>
             </div>
           </div>
           <dl className="sheet__facts">
@@ -148,28 +151,28 @@ export default function Archive() {
           </dl>
         </header>
 
-        <Tracks show={show} onSong={(songId) => go('finder', { songId, query: '' })} />
+        <Tracks show={show} lang={lang} onSong={(songId) => go('finder', { songId, query: '' })} />
 
         <footer className="sheet__foot">
           <div className="sheet__actions">
-            <button className="btn btn--black" onClick={() => setDrawer(true)}>完整 SETLIST <Arrow /></button>
+            <button className="btn btn--black" onClick={() => setDrawer(true)}>{t('完整 SETLIST', 'Full setlist')} <Arrow /></button>
             {show.status === 'VERIFIED' && (
-              <button className="btn btn--line" onClick={() => go('ticket', { ticketShowId: show.showId })}>生成票根 <Arrow /></button>
+              <button className="btn btn--line" onClick={() => go('ticket', { ticketShowId: show.showId })}>{t('生成票根', 'Make a ticket')} <Arrow /></button>
             )}
           </div>
           <div className="sheet__src">
             {(show.moments?.length ?? 0) > 0 && (
-              <ul className="moments">{show.moments!.map((m) => <li key={m}>{m}</li>)}</ul>
+              <ul className="moments">{show.moments!.map((m) => <li key={m}>{momentText(m, lang)}</li>)}</ul>
             )}
             {show.notes.length > 0 && (
-              <ul className="notes">{show.notes.map((n) => <li key={n}>{n}</li>)}</ul>
+              <ul className="notes">{showNotes(show, lang).map((n) => <li key={n}>{n}</li>)}</ul>
             )}
             <div className="srcline">
               <span className="srcline__k">SOURCES</span>
               {show.sources.map((k) => (
                 sources[k]?.url
-                  ? <a key={k} href={sources[k].url} target="_blank" rel="noreferrer">{sources[k].label}</a>
-                  : <span key={k}>{sources[k]?.label ?? k}</span>
+                  ? <a key={k} href={sources[k].url} target="_blank" rel="noreferrer">{sourceLabel(sources[k].label, lang)}</a>
+                  : <span key={k}>{sourceLabel(sources[k]?.label ?? k, lang)}</span>
               ))}
             </div>
             <div className="srcline">
@@ -179,13 +182,14 @@ export default function Archive() {
           </div>
         </footer>
 
-        {drawer && <SetlistDrawer show={show} onClose={() => setDrawer(false)} />}
+        {drawer && <SetlistDrawer show={show} lang={lang} onClose={() => setDrawer(false)} />}
       </article>
     </section>
   );
 }
 
-function Tracks({ show, onSong }: { show: Show; onSong: (id: string) => void }) {
+function Tracks({ show, lang, onSong }: { show: Show; lang: Lang; onSong: (id: string) => void }) {
+  const t = (zh: string, en: string) => (lang === 'en' ? en : zh);
   if (show.status !== 'VERIFIED') {
     return (
       <div className={`tracks tracks--empty`}>
@@ -198,17 +202,17 @@ function Tracks({ show, onSong }: { show: Show; onSong: (id: string) => void }) 
         ))}
         <p className="tracks__msg">
           {show.status === 'UPCOMING'
-            ? '尚未演出。演出结束并完成核实后，这里会显示当晚的随机曲目。'
-            : '演出日期已过，曲目记录尚未录入或仍在核实中。我们不会用推测的曲目填充。'}
+            ? t('尚未演出。演出结束并完成核实后，这里会显示当晚的随机曲目。', "This show hasn't happened yet. Its surprise songs will appear here once they are verified.")
+            : t('演出日期已过，曲目记录尚未录入或仍在核实中。我们不会用推测的曲目填充。', "This show has happened, but its songs are still being verified. We don't fill in guesses.")}
         </p>
       </div>
     );
   }
   const debuts = show.surpriseSongs.filter((e) => appearances.get(e.songId)?.[0]?.show.showId === show.showId).length;
   const insight =
-    show.surpriseSongs.length > 2 ? `本场演唱了 ${show.surpriseSongs.length} 首随机曲目` :
-    debuts === show.surpriseSongs.length ? '两首均为本巡演首次演唱' :
-    debuts === 0 ? '两首均在此前场次出现过' : `其中 ${debuts} 首为本巡演首次演唱`;
+    show.surpriseSongs.length > 2 ? t(`本场演唱了 ${show.surpriseSongs.length} 首随机曲目`, `${show.surpriseSongs.length} surprise songs tonight`) :
+    debuts === show.surpriseSongs.length ? t('两首均为本巡演首次演唱', 'Both are tour debuts') :
+    debuts === 0 ? t('两首均在此前场次出现过', 'Both were played earlier on the tour') : t(`其中 ${debuts} 首为本巡演首次演唱`, `${debuts} tour debut tonight`);
   return (
     <div className={`tracks tracks--n${show.surpriseSongs.length}`}>
       <div className="tracks__label">
@@ -219,20 +223,20 @@ function Tracks({ show, onSong }: { show: Show; onSong: (id: string) => void }) 
         const apps = appearances.get(e.songId) ?? [];
         const nth = apps.findIndex((a) => a.show.showId === show.showId) + 1;
         return (
-          <button className="track" key={e.slot} onClick={() => onSong(e.songId)} title="在 SONG FINDER 中查看所有演出记录">
+          <button className="track" key={e.slot} onClick={() => onSong(e.songId)} title={t('在 SONG FINDER 中查看所有演出记录', 'See every performance in Song Finder')}>
             <span className="track__no">TRACK {String(e.slot).padStart(2, '0')}</span>
             <span className={`track__title ${song.title.length > 14 ? 'track__title--long' : ''}`}>
               <Swap value={show.showId + e.slot}>{song.title}</Swap>
             </span>
             <span className="track__meta">
               {song.titleKo && <span className="ko">{song.titleKo}</span>}
-              {song.album && <span>{song.album}{song.year ? ` · ${song.year}` : ''}</span>}
-              {FORM_LABEL[e.form] && <span className="tag">{FORM_LABEL[e.form]}</span>}
-              {nth === 1 && <span className="tag tag--red">巡演首唱</span>}
+              {song.album && <span>{albumName(song.album, lang)}{song.year ? ` · ${song.year}` : ''}</span>}
+              {formLabel(e.form, lang) && <span className="tag">{formLabel(e.form, lang)}</span>}
+              {nth === 1 && <span className="tag tag--red">{t('巡演首唱', 'TOUR DEBUT')}</span>}
             </span>
             <span className="track__count">
               <span><b>{nth}</b>/{apps.length}</span>
-              <em>{nth === 1 ? '本巡演首次' : `本巡演第 ${nth} 次`} · 累计 {apps.length}</em>
+              <em>{nth === 1 ? t('本巡演首次', 'first time this tour') : t(`本巡演第 ${nth} 次`, `play ${nth} this tour`)} · {t('累计', 'total')} {apps.length}</em>
             </span>
           </button>
         );
@@ -241,29 +245,34 @@ function Tracks({ show, onSong }: { show: Show; onSong: (id: string) => void }) 
   );
 }
 
-function SetlistDrawer({ show, onClose }: { show: Show; onClose: () => void }) {
+function SetlistDrawer({ show, lang, onClose }: { show: Show; lang: Lang; onClose: () => void }) {
+  const t = (zh: string, en: string) => (lang === 'en' ? en : zh);
+  const note = (n?: string) => n?.split(' · ').map((x) => text(x, lang)).join(' · ');
   const verified = show.fullSetlist?.basis === 'verified';
   const acts = verified
     ? groupActs(show.fullSetlist!.items.map((i) => ({ act: i.act, songId: i.songId, note: i.note, surprise: i.type === 'surprise' })))
     : templateFor(show);
   let n = 0;
   return (
-    <div className="drawer" role="dialog" aria-label="完整 Setlist">
+    <div className="drawer" role="dialog" aria-label={t('完整 Setlist', 'Full setlist')}>
       <div className="drawer__head">
         <div>
           <div className="kicker">FULL SETLIST · №{pad(show.seq)}</div>
-          <h3>{show.cityZh} {dayLabel(show)}</h3>
+          <h3>{cityName(show, lang)} {dayLabel(show)}</h3>
         </div>
-        <button className="sq" onClick={onClose} aria-label="关闭">×</button>
+        <button className="sq" onClick={onClose} aria-label={t('关闭', 'Close')}>×</button>
       </div>
       <div className={`drawer__basis ${verified ? 'is-ok' : ''}`}>
         {verified ? (
-          <>本场完整歌单已按来源逐首核实（{show.fullSetlist!.sources.map((k) => sources[k]?.label).join('、')}）。</>
+          <>
+            {t('本场完整歌单已按来源逐首核实', 'Every song in this setlist is verified against the source')}
+            {' ('}{show.fullSetlist!.sources.map((k) => sourceLabel(sources[k]?.label ?? k, lang)).join(', ')})
+          </>
         ) : (
           <>
-            <b>参考框架 · 非本场逐场核实歌单。</b>
-            {tour.setlistTemplate.basis}
-            {show.status === 'VERIFIED' ? ' 红色为本场已核实的随机曲目。' : ''}
+            <b>{t('参考框架 · 非本场逐场核实歌单。', 'Reference setlist, not checked song by song for this show.')}</b>
+            {t(tour.setlistTemplate.basis, "Based on the full Goyang opening-night setlist (reported song by song by Consequence) and cross-checked with media reports from Bogotá in October 2026.")}
+            {show.status === 'VERIFIED' ? t(' 红色为本场已核实的随机曲目。', " The surprise songs in red are this show's verified picks.") : ''}
           </>
         )}
       </div>
@@ -278,9 +287,9 @@ function SetlistDrawer({ show, onClose }: { show: Show; onClose: () => void }) {
                 return (
                   <li key={i} className={`${it.surprise ? 'is-surprise' : ''} ${'changed' in it && it.changed ? 'is-changed' : ''}`}>
                     <span className="act__n">{String(n).padStart(2, '0')}</span>
-                    <span className="act__t">{s ? s.title : it.surprise ? (show.status === 'UPCOMING' ? '随机曲目（待演出）' : '随机曲目（待核实）') : '—'}</span>
+                    <span className="act__t">{s ? s.title : it.surprise ? (show.status === 'UPCOMING' ? t('随机曲目（待演出）', 'Surprise song (upcoming)') : t('随机曲目（待核实）', 'Surprise song (pending)')) : '—'}</span>
                     {it.surprise && <span className="act__tag">SURPRISE</span>}
-                    {it.note && <span className="act__note">{it.note}</span>}
+                    {it.note && <span className="act__note">{note(it.note)}</span>}
                   </li>
                 );
               })}
@@ -288,9 +297,9 @@ function SetlistDrawer({ show, onClose }: { show: Show; onClose: () => void }) {
           </section>
         ))}
         <p className="drawer__fine">
-          状态：{show.status} · {STATUS_LABEL[show.status]}。框架来源：
+          {t('状态', 'Status')}: {show.status} · {statusLabel(show.status, lang)}. {t('框架来源', 'Reference sources')}:
           {tour.setlistTemplate.sources.map((k) => (
-            <a key={k} href={sources[k]?.url} target="_blank" rel="noreferrer">{sources[k]?.label}</a>
+            <a key={k} href={sources[k]?.url} target="_blank" rel="noreferrer">{sourceLabel(sources[k]?.label ?? k, lang)}</a>
           ))}
         </p>
       </div>

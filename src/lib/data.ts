@@ -61,6 +61,8 @@ export interface Show {
   fullSetlist: { basis: 'verified'; sources: string[]; items: SetlistItem[] } | null;
   setlistChanges: SetlistChange[];
   notes: string[];
+  /** 可选：notes 的英文版（英文界面使用） */
+  notesEn?: string[];
   /** 现场特别时刻（如庆生），展示在场次档案和票根 */
   moments?: string[];
   sources: string[];
@@ -221,11 +223,6 @@ export const nextUpcoming: Show | undefined = shows.find((s) => s.status === 'UP
 
 /* ---------------------------------------------------------------- helpers */
 
-/** 矩阵列头、时间线用的中文简称（未列出的城市使用 cityZh） */
-export const ZH_SHORT: Record<string, string> = {
-  mexico: '墨城', lasvegas: '维加斯', eastrutherford: '新泽西', laplata: '布宜诺', kualalumpur: '吉隆坡',
-};
-export const shortZh = (s: { cityKey: string; cityZh: string }) => ZH_SHORT[s.cityKey] ?? s.cityZh;
 
 
 export const pad = (n: number, w = 3) => String(n).padStart(w, '0');

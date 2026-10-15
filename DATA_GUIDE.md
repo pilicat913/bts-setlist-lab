@@ -31,9 +31,9 @@
 - `form` 可选：`full`（完整）、`medley`（串烧）、`snippet`（片段）、`unspecified`（来源未说明，界面不显示标签）。
 - 一场唱了三首（如釜山 DAY 02）就写三条，`slot` 为 1/2/3。
 - 曲目顺序不确定时，在 `notes` 里写一句说明。
-- `notes` 是字符串数组，会显示在场次档案底部。
+- `notes` 是字符串数组，会显示在场次档案底部。网站有中 / EN 两种语言，请同时写 `notesEn`（英文版，数组顺序与 `notes` 一一对应），英文界面会显示它。
 - `moments` 是现场特别时刻（如 `"现场为 Jimin 庆生 · Happy Jimin's Birthday"`），以红色标签显示在场次档案，`·` 前的中文部分会印在票根上。
-- 城市名以 `cityZh` 为主显示，`city` 为英文副标题；矩阵列头太长时可在 `src/lib/data.ts` 的 `ZH_SHORT` 中加简称。
+- 城市名以 `cityZh` 为主显示，`city` 为英文副标题；矩阵列头太长时可在 `src/lib/i18n.ts` 的 `ZH_SHORT`（英文缩写在 `EN_SHORT`） 中加简称。
 
 修改已核实的场次（例如发现写错）也是同样操作：改 `surpriseSongs`，更新 `lastVerifiedAt`，必要时在 `notes` 里说明更正原因。
 
@@ -110,7 +110,7 @@
 - `seq`：场次编号（票根上的 №）。插入到中间时，界面上的编号以 `seq` 为准，请保持按日期递增。
 - `dayIndex`：该城市的第几晚（DAY 01、DAY 02…）。
 - `cityKey`：同一城市多场必须相同；`region` 为新地区时，在 `src/lib/data.ts` 的 `REGION_LABEL` 中补一个中文名。
-- 矩阵列头使用中文城市名；名称较长时在 `src/lib/data.ts` 的 `ZH_SHORT` 中加一个简称。
+- 矩阵列头使用中文城市名；名称较长时在 `src/lib/i18n.ts` 的 `ZH_SHORT`（英文缩写在 `EN_SHORT`） 中加一个简称。
 
 ## 5. 某场的完整 Setlist
 

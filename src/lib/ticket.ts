@@ -62,9 +62,11 @@ export interface TicketOpts {
   show: Show;
   mode: TicketMode;
   name: string;
+  lang?: 'zh' | 'en';
 }
 
-export function drawTicket(canvas: HTMLCanvasElement, { show, mode, name }: TicketOpts, scale = 1) {
+export function drawTicket(canvas: HTMLCanvasElement, { show, mode, name, lang = 'zh' }: TicketOpts, scale = 1) {
+  const en = lang === 'en';
   canvas.width = W * scale;
   canvas.height = H * scale;
   const ctx = canvas.getContext('2d')!;
@@ -129,17 +131,29 @@ export function drawTicket(canvas: HTMLCanvasElement, { show, mode, name }: Tick
 
   /* city */
   ctx.fillStyle = C.ink;
-  const cpx = fit(ctx, show.cityZh, (p) => `900 ${p}px ${TEXT}`, W - M * 2, 196, 90);
-  ctx.font = `900 ${cpx}px ${TEXT}`;
-  ctx.fillText(show.cityZh, M - 4, 560 + cpx * 0.86);
-  const cityBase = 560 + cpx * 0.86;
-  ctx.font = `400 46px ${DISPLAY}`;
-  const en = show.city.toUpperCase();
-  ctx.fillText(en, M, cityBase + 62);
-  const enW = ctx.measureText(en).width;
-  ctx.font = `700 30px ${TEXT}`;
-  ctx.fillStyle = C.grey;
-  ctx.fillText(`·  ${show.countryZh}`, M + enW + 16, cityBase + 60);
+  let cityBase: number;
+  if (en) {
+    const big = show.city.toUpperCase();
+    const cpx = fit(ctx, big, (p) => `400 ${p}px ${DISPLAY}`, W - M * 2 - 440, 220, 72); // 不压到右上角的红日
+    ctx.font = `400 ${cpx}px ${DISPLAY}`;
+    ctx.fillText(big, M - 6, 560 + cpx * 0.9);
+    cityBase = 560 + cpx * 0.9;
+    ctx.font = `500 30px ${MONO}`;
+    ctx.fillStyle = C.grey;
+    ctx.fillText(show.country.toUpperCase(), M, cityBase + 56);
+  } else {
+    const cpx = fit(ctx, show.cityZh, (p) => `900 ${p}px ${TEXT}`, W - M * 2, 196, 90);
+    ctx.font = `900 ${cpx}px ${TEXT}`;
+    ctx.fillText(show.cityZh, M - 4, 560 + cpx * 0.86);
+    cityBase = 560 + cpx * 0.86;
+    ctx.font = `400 46px ${DISPLAY}`;
+    const enCity = show.city.toUpperCase();
+    ctx.fillText(enCity, M, cityBase + 62);
+    const enW = ctx.measureText(enCity).width;
+    ctx.font = `700 30px ${TEXT}`;
+    ctx.fillStyle = C.grey;
+    ctx.fillText(`·  ${show.countryZh}`, M + enW + 16, cityBase + 60);
+  }
   ctx.fillStyle = C.ink;
 
   /* fact grid */
@@ -187,8 +201,8 @@ export function drawTicket(canvas: HTMLCanvasElement, { show, mode, name }: Tick
   ctx.fillRect(M, blockTop, W - M * 2, blockH);
   ctx.fillStyle = C.paper;
   ctx.font = `500 19px ${MONO}`;
-  ctx.fillText('SURPRISE SONGS · 当晚随机曲目', M + 36, blockTop + 46);
-  const moment = show.moments?.[0]?.split(' · ')[0];
+  ctx.fillText(en ? 'SURPRISE SONGS · TONIGHT' : 'SURPRISE SONGS · 当晚随机曲目', M + 36, blockTop + 46);
+  const moment = show.moments?.[0]?.split(' · ')[en ? 1 : 0];
   if (moment) {
     ctx.textAlign = 'right';
     ctx.font = `700 22px ${TEXT}`;
@@ -229,7 +243,9 @@ export function drawTicket(canvas: HTMLCanvasElement, { show, mode, name }: Tick
   const sy = py + 44;
   ctx.fillStyle = C.ink;
   const big = mode === 'attended' ? 'I WAS THERE' : 'IN MY ARCHIVE';
-  const zh = mode === 'attended' ? '我亲自去过这一场' : '我想收藏这一场';
+  const zh = en
+    ? mode === 'attended' ? 'I was in the crowd for this one.' : 'Saved to my archive.'
+    : mode === 'attended' ? '我亲自去过这一场' : '我想收藏这一场';
   ctx.font = `400 84px ${DISPLAY}`;
   ctx.fillText(big, M, sy + 80);
   ctx.font = `700 30px ${TEXT}`;
@@ -263,7 +279,7 @@ export function drawTicket(canvas: HTMLCanvasElement, { show, mode, name }: Tick
   ctx.font = `500 15px ${MONO}`;
   ctx.fillText(`${tour.name} · DATA VERIFIED ${show.lastVerifiedAt}`, M, H - M - 34);
   ctx.font = `500 18px ${TEXT}`;
-  ctx.fillText('非官方粉丝档案纪念图像 · NOT A TICKET · 不可用于入场', M, H - M);
+  ctx.fillText(en ? 'Unofficial fan archive keepsake · NOT A TICKET · not valid for entry' : '非官方粉丝档案纪念图像 · NOT A TICKET · 不可用于入场', M, H - M);
 
   /* notches — 真正镂空 */
   ctx.save();
