@@ -31,7 +31,8 @@ export default function App() {
           ))}
         </nav>
         <div className="top__meta">
-          <span>DATA {tour.dataUpdatedAt.replace(/-/g, '.')}</span>
+          <span className="top__credit">made by 霹雳小猫</span>
+          <span className="top__date">DATA {tour.dataUpdatedAt.replace(/-/g, '.')}</span>
           <span>
             {stats.verified}/{stats.total} VERIFIED
           </span>

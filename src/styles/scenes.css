@@ -443,3 +443,12 @@
 .unplayed__fine { font-size: 11px; color: var(--grey); margin: 14px 0 0; }
 .detail__none { color: var(--grey); font-size: 14px; margin: 0 0 12px; }
 .unplayed__head .seg { align-self: flex-start; }
+
+/* ------------------------------------------------------------- 署名 */
+.top__credit { font-family: var(--f-text); font-size: 11px; letter-spacing: 0.02em; color: var(--ink); font-weight: 700; }
+.home__credit { margin-left: auto; font-family: var(--f-text); letter-spacing: 0.02em; color: var(--ink); font-weight: 700; }
+@media (max-width: 899px) {
+  .top__date { display: none; }
+  .top__credit { font-size: 10px; }
+  .home__credit { display: none; }
+}

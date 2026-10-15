@@ -15,6 +15,7 @@ export default function Home() {
           <span>VOL.01</span>
           <span>{tour.name}</span>
           <span>{tour.period.replace(/-/g, '.')}</span>
+          <span className="home__credit">made by 霹雳小猫</span>
         </div>
         <h1 className="mast" aria-label="BTS SETLIST LAB">
           <span className="mast__l1">BTS</span>
