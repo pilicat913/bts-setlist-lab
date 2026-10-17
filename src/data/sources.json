@@ -94,5 +94,17 @@
     "url": "https://www.latercera.com/culto/noticia/bts-en-el-estadio-nacional-las-estrellas-del-k-pop-brillan-en-una-noche-impactante/",
     "type": "media",
     "accessedAt": "2026-10-15"
+  },
+  "dsn-santiago-d2": {
+    "label": "DSN · BTS hace historia en Chile este 16 de octubre: cantan Heartbeat por primera vez en vivo",
+    "url": "https://dsn.pe/bts-hace-historia-en-chile-este-16-de-octubre-cantan-heartbeat-por-primera-vez-en-vivo/",
+    "type": "media",
+    "accessedAt": "2026-10-17"
+  },
+  "user-notes-santiago-d2": {
+    "label": "站长校对版（圣地亚哥 DAY 02，2026-10-17）",
+    "url": "",
+    "type": "editor",
+    "accessedAt": "2026-10-17"
   }
 }

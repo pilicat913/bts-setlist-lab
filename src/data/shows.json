@@ -104,7 +104,7 @@
         }
       ]
     },
-    "dataUpdatedAt": "2026-10-15"
+    "dataUpdatedAt": "2026-10-17"
   },
   "shows": [
     {
@@ -2410,17 +2410,34 @@
       "countryCode": "CL",
       "region": "latin-america",
       "venue": "Estadio Nacional Julio Martínez Prádanos",
-      "status": "UPCOMING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "heartbeat",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "telepathy",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
-      "notes": [],
+      "notes": [
+        "随机曲目以 dsn.pe 报道与站长校对版为准（两者一致）；dsn.pe 未写明演唱顺序，TRACK 01 / 02 顺序以站长校对版为准。dsn.pe 称这是 Heartbeat 首次现场演出。截至 2026-10-17，Wikipedia、KPopGo 尚未收录本场。"
+      ],
       "sources": [
-        "wiki",
+        "dsn-santiago-d2",
+        "user-notes-santiago-d2",
         "livenation"
       ],
-      "lastVerifiedAt": "2026-10-15",
-      "moments": []
+      "lastVerifiedAt": "2026-10-17",
+      "moments": [],
+      "notesEn": [
+        "Surprise songs per dsn.pe and the editor's own notes (both agree); dsn.pe does not give the order, so TRACK 01 / 02 order follows the editor's notes. dsn.pe reports this was Heartbeat's first-ever live performance. Wikipedia and KPopGo had not covered this show as of 2026-10-17."
+      ]
     },
     {
       "showId": "arirang-2026-10-17-santiago",
