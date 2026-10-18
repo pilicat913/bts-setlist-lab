@@ -104,7 +104,7 @@
         }
       ]
     },
-    "dataUpdatedAt": "2026-10-17"
+    "dataUpdatedAt": "2026-10-18"
   },
   "shows": [
     {
@@ -2453,17 +2453,23 @@
       "countryCode": "CL",
       "region": "latin-america",
       "venue": "Estadio Nacional Julio Martínez Prádanos",
-      "status": "UPCOMING",
+      "status": "PENDING",
       "surpriseSongs": [],
       "fullSetlist": null,
       "setlistChanges": [],
-      "notes": [],
+      "notes": [
+        "站长校对版记为 Jump、Spine Breaker（啃老族 · 등골브레이커）两首（按站长给出的顺序）。截至 2026-10-18，Wikipedia、KPopGo 及智利 / 秘鲁主流媒体尚未查到本场随机曲目报道，缺第二个独立来源，暂列 PENDING。"
+      ],
       "sources": [
+        "user-notes-santiago-d3",
         "wiki",
         "livenation"
       ],
-      "lastVerifiedAt": "2026-10-15",
-      "moments": []
+      "lastVerifiedAt": "2026-10-18",
+      "moments": [],
+      "notesEn": [
+        "The editor's notes list Jump and Spine Breaker (in the order given by the editor). As of 2026-10-18 no surprise-song coverage of this show was found on Wikipedia, KPopGo or major Chilean / Peruvian media; a second independent source is still needed, so the show stays PENDING."
+      ]
     },
     {
       "showId": "arirang-2026-10-21-laplata",
