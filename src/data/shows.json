@@ -2453,12 +2453,23 @@
       "countryCode": "CL",
       "region": "latin-america",
       "venue": "Estadio Nacional Julio Martínez Prádanos",
-      "status": "PENDING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "jump",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "spine-breaker",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
       "notes": [
-        "站长校对版记为 Jump、Spine Breaker（啃老族 · 등골브레이커）两首（按站长给出的顺序）。截至 2026-10-18，Wikipedia、KPopGo 及智利 / 秘鲁主流媒体尚未查到本场随机曲目报道，缺第二个独立来源，暂列 PENDING。"
+        "随机曲目以站长核实版为准（站长于 2026-10-18 确认）；TRACK 01 / 02 顺序按站长给出的顺序。截至 2026-10-18，Wikipedia、KPopGo 及智利 / 秘鲁主流媒体尚未查到本场随机曲目的公开报道，有报道后补充来源。"
       ],
       "sources": [
         "user-notes-santiago-d3",
@@ -2468,7 +2479,7 @@
       "lastVerifiedAt": "2026-10-18",
       "moments": [],
       "notesEn": [
-        "The editor's notes list Jump and Spine Breaker (in the order given by the editor). As of 2026-10-18 no surprise-song coverage of this show was found on Wikipedia, KPopGo or major Chilean / Peruvian media; a second independent source is still needed, so the show stays PENDING."
+        "Surprise songs per the editor's own verification (confirmed 2026-10-18); TRACK 01 / 02 order follows the editor. As of 2026-10-18 no public surprise-song coverage of this show was found on Wikipedia, KPopGo or major Chilean / Peruvian media; sources will be added once available."
       ]
     },
     {
