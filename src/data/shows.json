@@ -104,7 +104,7 @@
         }
       ]
     },
-    "dataUpdatedAt": "2026-10-18"
+    "dataUpdatedAt": "2026-10-22"
   },
   "shows": [
     {
@@ -2426,17 +2426,20 @@
       "fullSetlist": null,
       "setlistChanges": [],
       "notes": [
-        "随机曲目以 dsn.pe 报道与站长校对版为准（两者一致）；dsn.pe 未写明演唱顺序，TRACK 01 / 02 顺序以站长校对版为准。dsn.pe 称这是 Heartbeat 首次现场演出。截至 2026-10-17，Wikipedia、KPopGo 尚未收录本场。"
+        "随机曲目以 dsn.pe 报道与站长校对版为准（两者一致）；dsn.pe 未写明演唱顺序，TRACK 01 / 02 顺序以站长校对版为准。dsn.pe 称这是 Heartbeat 首次现场演出。截至 2026-10-17，Wikipedia、KPopGo 尚未收录本场。",
+        "KPopGo（2026-10-22 查阅）记录的顺序为 Telepathy → Heartbeat，与站长校对版相反；目前仍按站长校对版顺序。"
       ],
       "sources": [
         "dsn-santiago-d2",
         "user-notes-santiago-d2",
-        "livenation"
+        "livenation",
+        "kpopgo"
       ],
       "lastVerifiedAt": "2026-10-17",
       "moments": [],
       "notesEn": [
-        "Surprise songs per dsn.pe and the editor's own notes (both agree); dsn.pe does not give the order, so TRACK 01 / 02 order follows the editor's notes. dsn.pe reports this was Heartbeat's first-ever live performance. Wikipedia and KPopGo had not covered this show as of 2026-10-17."
+        "Surprise songs per dsn.pe and the editor's own notes (both agree); dsn.pe does not give the order, so TRACK 01 / 02 order follows the editor's notes. dsn.pe reports this was Heartbeat's first-ever live performance. Wikipedia and KPopGo had not covered this show as of 2026-10-17.",
+        "KPopGo (checked 2026-10-22) lists the order as Telepathy → Heartbeat, the reverse of the editor's notes; the editor's order is kept for now."
       ]
     },
     {
@@ -2496,19 +2499,36 @@
       "countryCode": "AR",
       "region": "latin-america",
       "venue": "Estadio Único Diego Armando Maradona",
-      "status": "UPCOMING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "hold-me-tight",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "dionysus",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
       "notes": [
-        "场馆 Estadio Único 位于布宜诺斯艾利斯省 La Plata。"
+        "场馆 Estadio Único 位于布宜诺斯艾利斯省 La Plata。",
+        "随机曲目以站长核实版为准（站长于 2026-10-22 确认）；TRACK 01 / 02 顺序按站长给出的顺序。截至 2026-10-22，Wikipedia、KPopGo 及 La Nación、El Día、Diario Panorama、minutouno 等阿根廷媒体的报道尚未写出本场随机曲目，有报道后补充来源。"
       ],
       "sources": [
+        "user-notes-laplata-d1",
         "wiki",
         "livenation"
       ],
-      "lastVerifiedAt": "2026-10-15",
-      "moments": []
+      "lastVerifiedAt": "2026-10-22",
+      "moments": [],
+      "notesEn": [
+        "Estadio Único is in La Plata, Buenos Aires Province.",
+        "Surprise songs per the editor's own verification (confirmed 2026-10-22); TRACK 01 / 02 order follows the editor. As of 2026-10-22, Wikipedia, KPopGo and Argentine media coverage (La Nación, El Día, Diario Panorama, minutouno) had not named this show's surprise songs; sources will be added once available."
+      ]
     },
     {
       "showId": "arirang-2026-10-23-laplata",
