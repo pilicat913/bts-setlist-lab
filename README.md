@@ -12,7 +12,7 @@
 ## 中 / EN 双语
 
 右上角「中 / EN」切换语言，选择会记住。第一次打开时按浏览器语言自动选择（中文系统显示中文，其他显示英文）。
-分享英文版链接：`https://btssetlist.netlify.app/#/home?lang=en`（任何页面的链接后加 `lang=en` 都可以）。
+分享英文版链接：`https://pilicat913.github.io/bts-setlist-lab/#/home?lang=en`（任何页面的链接后加 `lang=en` 都可以）。
 界面文案在各场景文件里以 `t('中文', 'English')` 形式成对书写；城市、地区、专辑名和已有备注的英文版在 `src/lib/i18n.ts`。
 
 ## 运行
@@ -29,7 +29,11 @@ npm run validate-data   # 只校验数据
 
 `npm run build` 会先运行数据校验；数据有错（例如引用了不存在的 songId）时构建会失败并指出具体位置。
 
-## 部署到 Netlify
+## 部署
+
+**现在用的是 GitHub Pages**：每次推送到 `main`，`.github/workflows/pages.yml` 会自动构建并发布到 <https://pilicat913.github.io/bts-setlist-lab/>。第一次需要在仓库 Settings → Pages → Source 选「GitHub Actions」。
+
+### 备用：Netlify
 
 **方式 A：拖拽（最快）**
 1. 本地运行 `npm run build`
