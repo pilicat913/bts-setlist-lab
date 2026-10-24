@@ -104,7 +104,7 @@
         }
       ]
     },
-    "dataUpdatedAt": "2026-10-22"
+    "dataUpdatedAt": "2026-10-24"
   },
   "shows": [
     {
@@ -2544,17 +2544,36 @@
       "countryCode": "AR",
       "region": "latin-america",
       "venue": "Estadio Único Diego Armando Maradona",
-      "status": "UPCOMING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "attack-on-bangtan",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "epilogue-young-forever",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
-      "notes": [],
+      "notes": [
+        "场馆 Estadio Único 位于布宜诺斯艾利斯省 La Plata。",
+        "随机曲目以站长核实版为准（站长于 2026-10-24 确认）；TRACK 01 / 02 顺序按站长给出的顺序。截至 2026-10-24，Wikipedia、KPopGo 及主流媒体尚未查到本场随机曲目的公开报道，有报道后补充来源。"
+      ],
       "sources": [
+        "user-notes-laplata-d2",
         "wiki",
         "livenation"
       ],
-      "lastVerifiedAt": "2026-10-15",
-      "moments": []
+      "lastVerifiedAt": "2026-10-24",
+      "moments": [],
+      "notesEn": [
+        "Estadio Único is in La Plata, Buenos Aires Province.",
+        "Surprise songs per the editor's own verification (confirmed 2026-10-24); TRACK 01 / 02 order follows the editor. As of 2026-10-24, no public report from Wikipedia, KPopGo or mainstream media had named this show's surprise songs; sources will be added once available."
+      ]
     },
     {
       "showId": "arirang-2026-10-24-laplata",
