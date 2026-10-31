@@ -104,7 +104,7 @@
         }
       ]
     },
-    "dataUpdatedAt": "2026-10-29"
+    "dataUpdatedAt": "2026-10-31"
   },
   "shows": [
     {
@@ -2677,17 +2677,34 @@
       "countryCode": "BR",
       "region": "latin-america",
       "venue": "Estádio MorumBIS",
-      "status": "UPCOMING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "airplane-pt2",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "i-need-u",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
-      "notes": [],
+      "notes": [
+        "随机曲目以站长核实版为准（站长于 2026-10-31 确认）；TRACK 01 / 02 顺序按站长给出的顺序。截至 2026-10-31，Wikipedia、KPopGo 及主流媒体尚未查到本场随机曲目的公开报道，有报道后补充来源。"
+      ],
       "sources": [
+        "user-notes-saopaulo-d2",
         "wiki",
         "livenation"
       ],
-      "lastVerifiedAt": "2026-10-15",
-      "moments": []
+      "lastVerifiedAt": "2026-10-31",
+      "moments": [],
+      "notesEn": [
+        "Surprise songs per the editor's own verification (confirmed 2026-10-31); TRACK 01 / 02 order follows the editor. As of 2026-10-31, no public report from Wikipedia, KPopGo or mainstream media had named this show's surprise songs; sources will be added once available."
+      ]
     },
     {
       "showId": "arirang-2026-10-31-saopaulo",
