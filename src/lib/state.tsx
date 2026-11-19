@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { latestVerified, showById, shows, songById } from './data';
+import { latestVerified, showById, shows, songById, verifiedShows } from './data';
 import { makeT, type Lang } from './i18n';
 
 export type Scene = 'home' | 'archive' | 'lab' | 'finder' | 'ticket';
@@ -46,6 +46,15 @@ function readHash(): Partial<AppState> {
   return out;
 }
 
+/** 今天（本地日期）及之前最近一场已核实的演出；没有则退回最新已核实场次 */
+function currentShowId(): string {
+  const d = new Date();
+  const pad2 = (n: number) => String(n).padStart(2, '0');
+  const today = `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+  const past = verifiedShows.filter((v) => v.date <= today);
+  return (past[past.length - 1] ?? latestVerified)?.showId ?? shows[0].showId;
+}
+
 function initial(): AppState {
   let saved: Partial<AppState> = {};
   try {
@@ -55,7 +64,7 @@ function initial(): AppState {
   }
   const base: AppState = {
     scene: 'home',
-    showId: latestVerified?.showId ?? shows[0].showId,
+    showId: currentShowId(),
     songId: null,
     query: '',
     ticketShowId: null,
@@ -64,7 +73,8 @@ function initial(): AppState {
   if (saved.showId && !showById.has(saved.showId)) delete saved.showId;
   if (saved.songId && !songById.has(saved.songId)) delete saved.songId;
   if (saved.ticketShowId && !showById.has(saved.ticketShowId)) delete saved.ticketShowId;
-  return { ...base, ...saved, scene: 'home', ...readHash() };
+  // 场次每次打开都按今天的日期定位，不沿用上次停留的场次（链接里的 show 参数仍然优先）
+  return { ...base, ...saved, showId: base.showId, scene: 'home', ...readHash() };
 }
 
 function toHash(s: AppState) {

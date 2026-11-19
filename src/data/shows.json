@@ -2763,17 +2763,29 @@
       "countryCode": "TW",
       "region": "asia",
       "venue": "Kaohsiung National Stadium",
-      "status": "UPCOMING",
-      "surpriseSongs": [],
+      "status": "VERIFIED",
+      "surpriseSongs": [
+        {
+          "songId": "dna",
+          "slot": 1,
+          "form": "unspecified"
+        },
+        {
+          "songId": "answer-love-myself",
+          "slot": 2,
+          "form": "unspecified"
+        }
+      ],
       "fullSetlist": null,
       "setlistChanges": [],
       "notes": [],
       "sources": [
         "wiki",
         "livenation",
-        "usbtsarmy"
+        "usbtsarmy",
+        "user-notes"
       ],
-      "lastVerifiedAt": "2026-10-15",
+      "lastVerifiedAt": "2026-11-19",
       "moments": []
     },
     {
