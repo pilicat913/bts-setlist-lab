@@ -1434,10 +1434,11 @@
   },
   {
     "songId": "sea",
-    "title": "Sea",
+    "title": "Ocean",
     "titleKo": "바다",
     "aliases": [
-      "大海"
+      "大海",
+      "Sea"
     ],
     "album": "LOVE YOURSELF 承 'Her'",
     "year": 2017,
