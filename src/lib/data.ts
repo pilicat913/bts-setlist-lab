@@ -19,6 +19,8 @@ export interface Song {
   released: string | null;
   /** setlist = 本巡演固定曲目; catalog = 曲库（随机曲目来源） */
   kind: 'setlist' | 'catalog';
+  /** true = 站长判断基本不会现场演唱，不在「未出现」列表和曲库总数中显示 */
+  hideFromUnplayed?: boolean;
 }
 
 export interface SurpriseEntry {
@@ -199,8 +201,8 @@ export const ranking: RankRow[] = [...appearances.entries()]
   .sort((a, b) => b.count - a.count || (a.first.date < b.first.date ? -1 : 1));
 
 /** 曲库中尚未作为随机曲目出现的团体曲 / 小分队曲（固定曲目除外） */
-export const unplayed: Song[] = songs.filter((s) => s.kind === 'catalog' && !appearances.has(s.songId));
-export const catalogSize = songs.filter((s) => s.kind === 'catalog').length;
+export const unplayed: Song[] = songs.filter((s) => s.kind === 'catalog' && !s.hideFromUnplayed && !appearances.has(s.songId));
+export const catalogSize = songs.filter((s) => s.kind === 'catalog' && (!s.hideFromUnplayed || appearances.has(s.songId))).length;
 
 export const stats = (() => {
   const plays = verifiedShows.reduce((n, s) => n + s.surpriseSongs.length, 0);

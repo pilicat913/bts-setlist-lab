@@ -1008,7 +1008,8 @@
     "album": "2 Cool 4 Skool",
     "year": 2013,
     "kind": "catalog",
-    "released": "2013-06-12"
+    "released": "2013-06-12",
+    "hideFromUnplayed": true
   },
   {
     "songId": "path",
@@ -1078,7 +1079,8 @@
     "album": "O!RUL8,2?",
     "year": 2013,
     "kind": "catalog",
-    "released": "2013-09-11"
+    "released": "2013-09-11",
+    "hideFromUnplayed": true
   },
   {
     "songId": "where-you-from",
@@ -1115,7 +1117,8 @@
     "album": "Skool Luv Affair",
     "year": 2014,
     "kind": "catalog",
-    "released": "2014-02-12"
+    "released": "2014-02-12",
+    "hideFromUnplayed": true
   },
   {
     "songId": "miss-right",
@@ -1138,7 +1141,8 @@
     "album": "Skool Luv Affair Special Addition",
     "year": 2014,
     "kind": "catalog",
-    "released": "2014-05-14"
+    "released": "2014-05-14",
+    "hideFromUnplayed": true
   },
   {
     "songId": "war-of-hormone",
@@ -1256,7 +1260,8 @@
     "album": "DARK&WILD",
     "year": 2014,
     "kind": "catalog",
-    "released": "2014-08-20"
+    "released": "2014-08-20",
+    "hideFromUnplayed": true
   },
   {
     "songId": "wake-up",
@@ -1266,7 +1271,8 @@
     "album": "WAKE UP（日语）",
     "year": 2014,
     "kind": "catalog",
-    "released": "2014-12-24"
+    "released": "2014-12-24",
+    "hideFromUnplayed": true
   },
   {
     "songId": "the-stars",
@@ -1278,7 +1284,8 @@
     "album": "WAKE UP（日语）",
     "year": 2014,
     "kind": "catalog",
-    "released": "2014-12-24"
+    "released": "2014-12-24",
+    "hideFromUnplayed": true
   },
   {
     "songId": "hold-me-tight",
@@ -1337,7 +1344,8 @@
     "album": "Youth（日语）",
     "year": 2016,
     "kind": "catalog",
-    "released": "2016-09-07"
+    "released": "2016-09-07",
+    "hideFromUnplayed": true
   },
   {
     "songId": "wishing-on-a-star",
@@ -1347,7 +1355,8 @@
     "album": "Youth（日语）",
     "year": 2016,
     "kind": "catalog",
-    "released": "2016-09-07"
+    "released": "2016-09-07",
+    "hideFromUnplayed": true
   },
   {
     "songId": "lost",
@@ -1420,7 +1429,8 @@
     "album": "YOU NEVER WALK ALONE",
     "year": 2017,
     "kind": "catalog",
-    "released": "2017-02-13"
+    "released": "2017-02-13",
+    "hideFromUnplayed": true
   },
   {
     "songId": "outro-her",

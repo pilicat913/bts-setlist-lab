@@ -286,8 +286,8 @@ function Unplayed({ lang, sort, setSort, onSong }: { lang: Lang; sort: 'az' | 'r
       })}
       <p className="unplayed__fine">
         {t(
-          '范围：韩语、日语正式发行的团体曲与小分队曲。不含 solo 曲、Intro / Skit / Interlude、以其他艺人为主的合作曲、日语重录版，以及本巡演的固定曲目。',
-          "Scope: officially released Korean and Japanese group and unit songs. Excludes solo songs, intros, skits and interludes, collaborations led by other artists, Japanese re-recordings, and songs in this tour's main setlist.",
+          '范围：韩语、日语正式发行的团体曲与小分队曲。不含 solo 曲、Intro / Skit / Interlude、以其他艺人为主的合作曲、日语重录版、本巡演的固定曲目，以及站长判断基本不会现场演唱的部分 Outro 与日语曲。',
+          "Scope: officially released Korean and Japanese group and unit songs. Excludes solo songs, intros, skits and interludes, collaborations led by other artists, Japanese re-recordings, songs in this tour's main setlist, and a few outros and Japanese songs the editor considers very unlikely to be performed.",
         )}
       </p>
     </div>
